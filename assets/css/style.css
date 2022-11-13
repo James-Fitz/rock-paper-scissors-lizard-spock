@@ -3,4 +3,10 @@
     height: 10em;
     background-color: grey;
     border: 2px solid black;
+    margin: 1em;
+}
+
+.players-area {
+    display: inline-flex;
+    padding: 1em;
 }
