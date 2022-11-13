@@ -95,3 +95,18 @@ function getResult() {
     console.log(`Computer choice is ${computerChoice}`);
     getResult();
 }
+
+/**
+ *  Function to end the game when either player reaches 5 wins or computer reaches 5 wins.
+ */
+ function endGame() {
+    if (playerScore === 5) {
+        console.log("player wins");
+        playerScore = 0;
+        computerScore = 0;
+    } else if (computerScore === 5) {
+        console.log("computer wins");
+        playerScore = 0;
+        computerScore = 0;
+    }
+}
