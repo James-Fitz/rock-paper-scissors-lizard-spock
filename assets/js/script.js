@@ -101,11 +101,11 @@ function getResult() {
  */
  function endGame() {
     if (playerScore === 5) {
-        console.log("player wins");
+        console.log("Player wins");
         playerScore = 0;
         computerScore = 0;
     } else if (computerScore === 5) {
-        console.log("computer wins");
+        console.log("Computer wins");
         playerScore = 0;
         computerScore = 0;
     }
