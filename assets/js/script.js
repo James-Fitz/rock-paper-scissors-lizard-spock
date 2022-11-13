@@ -18,6 +18,15 @@ function getComputerChoice() {
     return choices[randomChoice];
 }
 
+/** 
+ * Loop through all player choices.
+ * Once the player clicks a choice
+ * playGame function will run
+ */
+ for (let choice of playerChoices) {
+    choice.addEventListener('click', playGame);
+}
+
 /**
  * Function to increase player score by one.
  */
