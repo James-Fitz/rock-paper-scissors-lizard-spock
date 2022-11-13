@@ -79,6 +79,9 @@ function getResult() {
             resultText.innerHTML = 'Draw!';
             break;
     }
+    endGame();
+    console.log(playerScore);
+    console.log(computerScore);
 }
 
 /** Function that controls the flow of the game.
