@@ -80,3 +80,15 @@ function getResult() {
             break;
     }
 }
+
+/** Function that controls the flow of the game.
+ * Console logs player choice and computer choice.
+ * Runs the getResult function to determine the winner.
+ */
+ function playGame(event) {
+    playerChoice = event.target.id;
+    computerChoice = getComputerChoice();
+    console.log(`Player choice is ${playerChoice}`);
+    console.log(`Computer choice is ${computerChoice}`);
+    getResult();
+}
