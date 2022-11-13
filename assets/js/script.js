@@ -66,3 +66,8 @@ function getResult() {
             resultText.innerHTML = 'Computer Wins The Round!';
             increaseComputerScore();
             break;
+        default:
+            resultText.innerHTML = 'Draw!';
+            break;
+    }
+}
