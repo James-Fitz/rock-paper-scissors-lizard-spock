@@ -31,14 +31,14 @@ function getComputerChoice() {
  * Function to increase player score by one.
  */
 function increasePlayerScore() {
-    ++playerScore;
+    document.getElementById("player-score").innerHTML = ++playerScore;
 }
 
 /**
  * Function to increase computer score by one.
  */
 function increaseComputerScore() {
-    ++computerScore;
+    document.getElementById("computer-score").innerHTML = ++computerScore;
 }
 
 /**
@@ -60,6 +60,7 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             resultText.innerHTML = 'You Win The Round!';
+            console.log("player wins the round");
             increasePlayerScore();
             break;
         case 'scissorsrock':
@@ -73,6 +74,7 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             resultText.innerHTML = 'Computer Wins The Round!';
+            console.log("computer wins the round");
             increaseComputerScore();
             break;
         default:
@@ -104,9 +106,13 @@ function getResult() {
         console.log("Player wins");
         playerScore = 0;
         computerScore = 0;
+        document.getElementById("player-score").innerHTML = 0;
+        document.getElementById("computer-score").innerHTML = 0;
     } else if (computerScore === 5) {
         console.log("Computer wins");
         playerScore = 0;
         computerScore = 0;
+        document.getElementById("player-score").innerHTML = 0;
+        document.getElementById("computer-score").innerHTML = 0;
     }
 }
