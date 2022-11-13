@@ -13,8 +13,14 @@
     <h1>Rock Paper Scissors Lizard Spock</h1>
     <div id="game-area">
         <div id="players-area">
-            <div id="player-screen"><h2>Player: 0</h2></div>
-            <div id="computer-screen"><h2>Computer: 0</h2></div>
+            <h2>Player: <span id="player-score">0</span></h2>
+            <div id="player-screen">
+                <span id="display-player-choice"></span>
+            </div>
+            <h2>Computer: <span id="computer-score">0</span></h2>
+            <div id="computer-screen">
+                <span id="display-computer-choice"></span>
+            </div>
         </div>
         <div id="game-result"><h2>Player Wins!</h2></div>
         <div id="choice-buttons">
@@ -26,8 +32,8 @@
             <i id="spock" class="fa-regular fa-hand-spock choice"></i>
         </div>
         <div id="extras">
-            <button>Rules</button>
-            <button>Reset</button>
+            <button id="rules" class="button">Rules</button>
+            <button id="reset" class="button">Reset</button>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
