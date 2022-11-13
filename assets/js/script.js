@@ -5,5 +5,5 @@ const resultText = document.getElementById("game-result");
 let playerChoice;
 let computerChoice;
 
-let playerScore = document.getElementById("player-score");
-let computerScore = document.getElementById("computer-score");
+let playerScore = parseInt(document.getElementById("player-score").innerHTML);
+let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
