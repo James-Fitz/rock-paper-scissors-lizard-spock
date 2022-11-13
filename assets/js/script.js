@@ -31,3 +31,25 @@ let computerScore = parseInt(document.getElementById("computer-score").innerHTML
 function increaseComputerScore() {
     ++computerScore;
 }
+
+/**
+ * Function that determines the result of the player choice vs the computer choice.
+ * Outputs resultTest to display to user who won.
+ * Increases the score of the winner by one.
+ * Runs the endGame function once the round result is determined.
+ */
+ function getResult() {
+    switch (playerChoice + computerChoice) {
+        case 'rockscissors':
+        case 'rocklizard':
+        case 'paperrock':
+        case 'paperspock':
+        case 'scissorspaper':
+        case 'scissorslizard':
+        case 'lizardpaper':
+        case 'lizardspock':
+        case 'spockscissors':
+        case 'spockrock':
+            resultText.innerHTML = 'You Win The Round!';
+            increasePlayerScore();
+            break;
