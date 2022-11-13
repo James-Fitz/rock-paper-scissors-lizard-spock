@@ -17,3 +17,17 @@ let computerScore = parseInt(document.getElementById("computer-score").innerHTML
     const randomChoice = Math.floor(Math.random() * 5)
     return choices[randomChoice];
 }
+
+/**
+ * Function to increase player score by one.
+ */
+ function increasePlayerScore() {
+    ++playerScore;
+}
+
+/**
+ * Function to increase computer score by one.
+ */
+function increaseComputerScore() {
+    ++computerScore;
+}
