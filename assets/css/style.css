@@ -32,3 +32,8 @@
     width: 20%;
     height: 20%;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+}
