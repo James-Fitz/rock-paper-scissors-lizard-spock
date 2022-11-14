@@ -182,8 +182,3 @@ playAgainButton.addEventListener("click", () => {
     resultText.innerHTML = "";
     resultModal.style.display = "none";
 });
-
-function openModal() {
-    $("#overlay").css({"display":"block"});
-    $(".modal").css({"display":"block"});
-  }
