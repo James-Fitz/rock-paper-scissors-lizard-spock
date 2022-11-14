@@ -5,6 +5,7 @@ const resultText = document.getElementById("game-result");
 const rulesButton = document.getElementById("rules-btn");
 const resetButton = document.getElementById("reset-btn");
 const startButton = document.getElementById("start-btn");
+const playAgainButton = document.getElementById("play-again-button");
 
 let playerChoice;
 let computerChoice;
@@ -15,6 +16,8 @@ let computerScore = parseInt(document.getElementById("computer-score").innerHTML
 let rulesModal = document.getElementById("rules-modal-content");
 let closeModal = document.getElementById("close-modal-btn");
 
+let winModal = document.getElementById("you-win-modal");
+let loseModal = document.getElementById("you-lose-modal");
 
 /** 
  * Function to open modal when rules button is clicked
@@ -131,12 +134,14 @@ function getResult() {
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
+        winModal.style.display = "block";
     } else if (computerScore === 5) {
         console.log("Computer wins");
         playerScore = 0;
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
+        loseModal.style.display = "block";
     }
 }
 
