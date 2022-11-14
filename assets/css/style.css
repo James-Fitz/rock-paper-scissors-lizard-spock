@@ -24,6 +24,12 @@
  font-size: 5em;
 }
 
+#choice-buttons > i:hover {
+    color: #000000;
+    text-shadow: 2px 2px 4px #000000;
+    transform: scale(1.1);
+}
+
 #game-area {
     width: 100%;
 }

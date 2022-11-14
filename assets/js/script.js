@@ -5,7 +5,7 @@ const resultText = document.getElementById("game-result");
 const rulesButton = document.getElementById("rules-btn");
 const resetButton = document.getElementById("reset-btn");
 const startButton = document.getElementById("start-btn");
-const playAgainButton = document.getElementById("play-again-button");
+const playAgainButton = document.getElementsByClassName("play-again-button");
 
 let playerChoice;
 let computerChoice;
@@ -146,6 +146,15 @@ function getResult() {
 }
 
 resetButton.addEventListener("click", () => {
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("player-score").innerHTML = 0;
+    document.getElementById("computer-score").innerHTML = 0;
+    resultText.innerHTML = "";
+}
+);
+
+playAgainButton.addEventListener("click", () => {
     playerScore = 0;
     computerScore = 0;
     document.getElementById("player-score").innerHTML = 0;
