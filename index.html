@@ -12,49 +12,56 @@
 </head>
 
 <body>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
-    <div id="game-area">
-        <div class="players-area">
-            <div id="player-box">
-                <h2>Player: <span id="player-score">0</span></h2>
-                <div id="player-screen">
-                    <span id="display-player-choice"></span>
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+    <main>
+        <div id="game-area">
+            <div class="players-area">
+                <div id="player-box">
+                    <h2>Player: <span id="player-score">0</span></h2>
+                    <div id="player-screen">
+                        <span id="display-player-choice"></span>
+                    </div>
+                </div>
+                <div class="player-box">
+                    <h2>Computer: <span id="computer-score">0</span></h2>
+                    <div id="computer-screen">
+                        <span id="display-computer-choice"></span>
+                    </div>
                 </div>
             </div>
-            <div class="player-box">
-                <h2>Computer: <span id="computer-score">0</span></h2>
-                <div id="computer-screen">
-                    <span id="display-computer-choice"></span>
-                </div>
+            <div id="game-result">
+                <h2></h2>
+            </div>
+            <div id="choice-buttons">
+                <h2 id="make-choice-heading">Make your choice...</h2>
+                <i id="rock" class="fa-regular fa-hand-back-fist choice"></i>
+                <i id="paper" class="fa-regular fa-hand choice"></i>
+                <i id="scissors" class="fa-regular fa-hand-scissors choice"></i>
+                <i id="lizard" class="fa-regular fa-hand-lizard choice"></i>
+                <i id="spock" class="fa-regular fa-hand-spock choice"></i>
+            </div>
+            <div id="extras">
+                <button id="rules-btn" class="button">Rules</button>
+                <button id="reset-btn" class="button">Reset</button>
             </div>
         </div>
-        <div id="game-result">
-            <h2></h2>
+        <div id="rules-modal">
+            <h2>Rules</h2>
+            <p>Just like the traditional Rock Paper Scissors game, with a little twist!</p>
+            <p>We've added two more selections to spice thing up!</p>
+            <p>First to win 5 games is the overall winner</p>
+            <p>Good luck!</p>
+            <img id="rules-image" src="assets/images/rpsls-rules.png" alt="rock paper scissors lizard spock rules">
+            <button id="start-btn" class="button">Start game</button>
         </div>
-        <div id="choice-buttons">
-            <h2 id="make-choice-heading">Make your choice...</h2>
-            <i id="rock" class="fa-regular fa-hand-back-fist choice"></i>
-            <i id="paper" class="fa-regular fa-hand choice"></i>
-            <i id="scissors" class="fa-regular fa-hand-scissors choice"></i>
-            <i id="lizard" class="fa-regular fa-hand-lizard choice"></i>
-            <i id="spock" class="fa-regular fa-hand-spock choice"></i>
-        </div>
-        <div id="extras">
-            <button id="rules-btn" class="button">Rules</button>
-            <button id="reset-btn" class="button">Reset</button>
-        </div>
-    </div>
-    <div id="rules-info">
-        <h2>Rules</h2>
-        <p>Just like the traditional Rock Paper Scissors game, with a little twist!</p>
-        <p>We've added two more selections to spice thing up!</p>
-        <p>First to win 5 games is the overall winner</p>
-        <p>Good luck!</p>
-        <img id="rules-image" src="assets/images/rpsls-rules.png" alt="rock paper scissors lizard spock rules">
-        <button id="start-btn" class="button">Start game</button>
-    </div>
-    <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
