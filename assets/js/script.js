@@ -12,9 +12,17 @@ let computerChoice;
 let playerScore = parseInt(document.getElementById("player-score").innerHTML);
 let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
 
-let rulesModal = document.getElementById("rules-content-modal");
+let rulesModal = document.getElementById("rules-modal-content");
 let closeModal = document.getElementById("close-modal-btn");
 
+
+/** 
+ * Function to open modal when rules button is clicked
+ */
+
+rulesButton.onclick = () => {
+rulesModal.style.display = "block";
+}
 /** 
  * Creates an array of all possible choices
  * Generates a random number between 0 and 4
