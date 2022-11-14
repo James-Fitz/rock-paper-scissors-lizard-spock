@@ -121,7 +121,7 @@ function getResult() {
     }
 }
 
-resetButton.addEventListener(click, () => {
+resetButton.addEventListener("click", () => {
     playerScore = 0;
     computerScore = 0;
     document.getElementById("player-score").innerHTML = 0;

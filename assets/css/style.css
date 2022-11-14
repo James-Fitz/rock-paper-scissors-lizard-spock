@@ -10,3 +10,7 @@
     display: inline-flex;
     padding: 1em;
 }
+
+#choice-buttons > i {
+ font-size: 5em;
+}
