@@ -23,6 +23,14 @@ let closeModal = document.getElementById("close-modal-btn");
 rulesButton.onclick = () => {
 rulesModal.style.display = "block";
 }
+
+/** 
+ * Function to close modal when close button is clicked
+ */
+
+closeModal.onclick = () => {
+    rulesModal.style.display = "none";
+}
 /** 
  * Creates an array of all possible choices
  * Generates a random number between 0 and 4
