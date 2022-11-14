@@ -22,6 +22,8 @@
 
 #choice-buttons > i {
  font-size: 5em;
+ padding-left: .25em;
+ margin: .25em;
 }
 
 #choice-buttons > i:hover {
