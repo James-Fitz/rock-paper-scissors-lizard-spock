@@ -2,6 +2,10 @@
 const playerChoices = document.getElementsByClassName("choice");
 const resultText = document.getElementById("game-result");
 
+const rulesButton = document.getElementById("rules-btn");
+const resetButton = document.getElementById("reset-btn");
+const startButton = document.getElementById("start-btn");
+
 let playerChoice;
 let computerChoice;
 
