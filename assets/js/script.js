@@ -120,3 +120,12 @@ function getResult() {
         document.getElementById("computer-score").innerHTML = 0;
     }
 }
+
+resetButton.addEventListener(click, () => {
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("player-score").innerHTML = 0;
+    document.getElementById("computer-score").innerHTML = 0;
+    resultText.innerHTML = "";
+}
+);
