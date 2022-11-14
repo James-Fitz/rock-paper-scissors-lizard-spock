@@ -12,7 +12,8 @@ let computerChoice;
 let playerScore = parseInt(document.getElementById("player-score").innerHTML);
 let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
 
-let rulesModal = document.getElementById("rules-content-modal")
+let rulesModal = document.getElementById("rules-content-modal");
+let closeModal = document.getElementById("close-modal-btn");
 
 /** 
  * Creates an array of all possible choices
