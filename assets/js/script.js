@@ -17,14 +17,14 @@ let rulesModal = document.getElementById("rules-modal-content");
 let closeModal = document.getElementById("close-modal-btn");
 
 let resultModal = document.getElementById("result-modal-content");
-
+let modalResults = document.getElementById("modal-results");
 
 /** 
  * Function to open modal when rules button is clicked
  */
 
 rulesButton.onclick = () => {
-rulesModal.style.display = "block";
+    rulesModal.style.display = "block";
 }
 
 /** 
@@ -49,7 +49,7 @@ function getComputerChoice() {
  * Once the player clicks a choice
  * playGame function will run
  */
- for (let choice of playerChoices) {
+for (let choice of playerChoices) {
     choice.addEventListener('click', playGame);
 }
 
@@ -116,7 +116,7 @@ function getResult() {
  * Console logs player choice and computer choice.
  * Runs the getResult function to determine the winner.
  */
- function playGame(event) {
+function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
     console.log(`Player choice is ${playerChoice}`);
@@ -127,7 +127,7 @@ function getResult() {
 /**
  *  Function to end the game when either player reaches 5 wins or computer reaches 5 wins.
  */
- function endGame() {
+function endGame() {
     if (playerScore === 5) {
         console.log("Player wins");
         resultModal.style.display = "block";
@@ -135,7 +135,9 @@ function getResult() {
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
-        
+        modalResults.innerHTML=(`
+        <h2>Well done! You won!!!</h2>
+        <p>Try and win some more!</p>`);
     } else if (computerScore === 5) {
         console.log("Computer wins");
         resultModal.style.display = "block";
@@ -143,6 +145,9 @@ function getResult() {
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
+        modalResults.innerHTML=(`
+        <h2>Unlucky... You lose...</h2>
+        <p>Don't give up, try again!</p>`)
     }
 }
 
@@ -153,8 +158,7 @@ resetButton.addEventListener("click", () => {
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = "";
     resultModal.style.display = "none";
-}
-);
+});
 
 playAgainButton.addEventListener("click", () => {
     playerScore = 0;
@@ -163,5 +167,4 @@ playAgainButton.addEventListener("click", () => {
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = "";
     resultModal.style.display = "none";
-}
-);
+});
