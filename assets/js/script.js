@@ -157,13 +157,3 @@ resetButton.addEventListener("click", () => {
 }
 );
 
-playAgainButton.addEventListener("click", () => {
-    playerScore = 0;
-    computerScore = 0;
-    document.getElementById("player-score").innerHTML = 0;
-    document.getElementById("computer-score").innerHTML = 0;
-    resultText.innerHTML = "";
-    winModal.style.display = "none";
-    loseModal.style.display = "none";
-}
-);
