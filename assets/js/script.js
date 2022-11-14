@@ -9,6 +9,7 @@ const playAgainButton = document.getElementById("play-again-btn");
 
 let playerChoice;
 let computerChoice;
+let computerIcon = document.getElementById("display-computer-choice");
 
 let playerScore = parseInt(document.getElementById("player-score").innerHTML);
 let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
@@ -42,6 +43,24 @@ function getComputerChoice() {
     const choices = ["rock", "paper", "scissors", "lizard", "spock"];
     const randomChoice = Math.floor(Math.random() * 5)
     return choices[randomChoice];
+}
+/**
+ * Function to display the computers chosen icon in the display box
+ */
+function displayComputerChoice() {
+    
+    if (computerChoice = "rock") {
+        computerIcon.className = "fa-regular fa-hand-back-fist";
+    } else if (computerChoice = "paper") {
+        computerIcon.className = "fa-regular fa-hand";
+    } else if (computerChoice = "scissors") {
+        computerIcon.className = "fa-regular fa-hand-scissors";
+    } else if (computerChoice = "lizard") {
+        computerIcon.className = "fa-regular fa-hand-lizard";
+    } else {
+        computerIcon.className = "fa-regular fa-hand-spock";
+    }
+
 }
 
 /** 
@@ -122,6 +141,7 @@ function playGame(event) {
     console.log(`Player choice is ${playerChoice}`);
     console.log(`Computer choice is ${computerChoice}`);
     getResult();
+    displayComputerChoice();
 }
 
 /**
@@ -135,7 +155,7 @@ function endGame() {
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
-        modalResults.innerHTML=(`
+        modalResults.innerHTML = (`
         <h2>Well done! You won!!!</h2>
         <p>Try and win some more!</p>`);
     } else if (computerScore === 5) {
@@ -145,7 +165,7 @@ function endGame() {
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
-        modalResults.innerHTML=(`
+        modalResults.innerHTML = (`
         <h2>Unlucky... You lose...</h2>
         <p>Don't give up, try again!</p>`)
     }
