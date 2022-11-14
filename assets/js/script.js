@@ -5,7 +5,7 @@ const resultText = document.getElementById("game-result");
 const rulesButton = document.getElementById("rules-btn");
 const resetButton = document.getElementById("reset-btn");
 const startButton = document.getElementById("start-btn");
-const playAgainButton = document.getElementsByClassName("play-again-button");
+const playAgainButton = document.getElementById("play-again-btn");
 
 let playerChoice;
 let computerChoice;
@@ -16,8 +16,8 @@ let computerScore = parseInt(document.getElementById("computer-score").innerHTML
 let rulesModal = document.getElementById("rules-modal-content");
 let closeModal = document.getElementById("close-modal-btn");
 
-let winModal = document.getElementById("you-win-modal");
-let loseModal = document.getElementById("you-lose-modal");
+let resultModal = document.getElementById("result-modal-content");
+
 
 /** 
  * Function to open modal when rules button is clicked
@@ -130,7 +130,7 @@ function getResult() {
  function endGame() {
     if (playerScore === 5) {
         console.log("Player wins");
-        winModal.style.display = "block";
+        resultModal.style.display = "block";
         playerScore = 0;
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
@@ -138,7 +138,7 @@ function getResult() {
         
     } else if (computerScore === 5) {
         console.log("Computer wins");
-        loseModal.style.display = "block";
+        resultModal.style.display = "block";
         playerScore = 0;
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
@@ -152,8 +152,16 @@ resetButton.addEventListener("click", () => {
     document.getElementById("player-score").innerHTML = 0;
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = "";
-    winModal.style.display = "none";
-    loseModal.style.display = "none";
+    resultModal.style.display = "none";
 }
 );
 
+playAgainButton.addEventListener("click", () => {
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("player-score").innerHTML = 0;
+    document.getElementById("computer-score").innerHTML = 0;
+    resultText.innerHTML = "";
+    resultModal.style.display = "none";
+}
+);
