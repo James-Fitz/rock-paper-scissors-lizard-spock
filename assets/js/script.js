@@ -140,7 +140,6 @@ function getResult() {
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
-    displayComputerChoice();
     console.log(`Player choice is ${playerChoice}`);
     console.log(`Computer choice is ${computerChoice}`);
     getResult();
@@ -183,3 +182,8 @@ playAgainButton.addEventListener("click", () => {
     resultText.innerHTML = "";
     resultModal.style.display = "none";
 });
+
+function openModal() {
+    $("#overlay").css({"display":"block"});
+    $(".modal").css({"display":"block"});
+  }
