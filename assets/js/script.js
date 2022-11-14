@@ -130,18 +130,19 @@ function getResult() {
  function endGame() {
     if (playerScore === 5) {
         console.log("Player wins");
+        winModal.style.display = "block";
         playerScore = 0;
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
-        winModal.style.display = "block";
+        
     } else if (computerScore === 5) {
         console.log("Computer wins");
+        loseModal.style.display = "block";
         playerScore = 0;
         computerScore = 0;
         document.getElementById("player-score").innerHTML = 0;
         document.getElementById("computer-score").innerHTML = 0;
-        loseModal.style.display = "block";
     }
 }
 
@@ -151,6 +152,8 @@ resetButton.addEventListener("click", () => {
     document.getElementById("player-score").innerHTML = 0;
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = "";
+    winModal.style.display = "none";
+    loseModal.style.display = "none";
 }
 );
 
@@ -160,5 +163,7 @@ playAgainButton.addEventListener("click", () => {
     document.getElementById("player-score").innerHTML = 0;
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = "";
+    winModal.style.display = "none";
+    loseModal.style.display = "none";
 }
 );
