@@ -10,6 +10,7 @@ const playAgainButton = document.getElementById("play-again-btn");
 let playerChoice;
 let computerChoice;
 let computerIcon = document.getElementById("display-computer-choice");
+let playerIcon = document.getElementById("display-player-choice");
 
 let playerScore = parseInt(document.getElementById("player-score").innerHTML);
 let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
@@ -46,6 +47,7 @@ function getComputerChoice() {
 }
 /**
  * Function to display the computers chosen icon in the display box
+ * NOT WORKING AS INTENDED
  */
 function displayComputerChoice() {
     
@@ -138,10 +140,11 @@ function getResult() {
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
+    displayComputerChoice();
     console.log(`Player choice is ${playerChoice}`);
     console.log(`Computer choice is ${computerChoice}`);
     getResult();
-    displayComputerChoice();
+    
 }
 
 /**
@@ -151,20 +154,12 @@ function endGame() {
     if (playerScore === 5) {
         console.log("Player wins");
         resultModal.style.display = "block";
-        playerScore = 0;
-        computerScore = 0;
-        document.getElementById("player-score").innerHTML = 0;
-        document.getElementById("computer-score").innerHTML = 0;
         modalResults.innerHTML = (`
         <h2>Well done! You won!!!</h2>
         <p>Try and win some more!</p>`);
     } else if (computerScore === 5) {
         console.log("Computer wins");
         resultModal.style.display = "block";
-        playerScore = 0;
-        computerScore = 0;
-        document.getElementById("player-score").innerHTML = 0;
-        document.getElementById("computer-score").innerHTML = 0;
         modalResults.innerHTML = (`
         <h2>Unlucky... You lose...</h2>
         <p>Don't give up, try again!</p>`)
