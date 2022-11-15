@@ -1,3 +1,7 @@
+/* Google fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 /* Removing default html page styling */
 
 * {
@@ -9,6 +13,7 @@
 /* Align everything to the center of the page */
 main, header {
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 #player-screen,
@@ -39,7 +44,7 @@ main, header {
 }
 
 #choice-buttons>i:hover {
-    color: #000000;
+    
     text-shadow: 2px 2px 4px #000000;
     transform: scale(1.1);
 }
