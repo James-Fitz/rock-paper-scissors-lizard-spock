@@ -50,21 +50,8 @@ function getComputerChoice() {
  * NOT WORKING AS INTENDED
  */
 function displayComputerChoice() {
-    
-    if (computerChoice = "rock") {
-        computerIcon.className = "fa-regular fa-hand-back-fist";
-    } else if (computerChoice = "paper") {
-        computerIcon.className = "fa-regular fa-hand";
-    } else if (computerChoice = "scissors") {
-        computerIcon.className = "fa-regular fa-hand-scissors";
-    } else if (computerChoice = "lizard") {
-        computerIcon.className = "fa-regular fa-hand-lizard";
-    } else {
-        computerIcon.className = "fa-regular fa-hand-spock";
-    }
-
+        
 }
-
 /** 
  * Loop through all player choices.
  * Once the player clicks a choice
