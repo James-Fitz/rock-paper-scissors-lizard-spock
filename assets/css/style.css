@@ -69,6 +69,7 @@ main, header {
     border: 3px solid rgb(0, 0, 0);
     border-radius: 5%;
     padding: 1em;
+    box-shadow: rgb(45, 55, 65) 0px 20px 30px -10px;
 }
 
 #result-modal-content, #rules-modal-content{
