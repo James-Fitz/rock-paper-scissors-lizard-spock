@@ -50,7 +50,7 @@ function getComputerChoice() {
  * NOT WORKING AS INTENDED
  */
 function displayComputerChoice() {
-        
+
 }
 /** 
  * Loop through all player choices.
@@ -130,7 +130,7 @@ function playGame(event) {
     console.log(`Player choice is ${playerChoice}`);
     console.log(`Computer choice is ${computerChoice}`);
     getResult();
-    
+
 }
 
 /**

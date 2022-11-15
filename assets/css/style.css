@@ -11,7 +11,8 @@
 }
 
 /* Align everything to the center of the page */
-main, header {
+main,
+header {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -19,6 +20,7 @@ main, header {
 header {
     margin: 0.5em;
 }
+
 #player-screen,
 #computer-screen {
     width: 10em;
@@ -55,7 +57,7 @@ header {
 }
 
 #choice-buttons>i:hover {
-    
+
     transform: scale(1.2);
 }
 
@@ -87,13 +89,14 @@ header {
     box-shadow: rgb(45, 55, 65) 0px 20px 30px -10px;
 }
 
-#result-modal-content, #rules-modal-content{
+#result-modal-content,
+#rules-modal-content {
     text-align: center;
 }
 
 .button {
     color: rgb(59, 137, 255);
-    background-color:white;
+    background-color: white;
     font-size: 1.2em;
     border: 2px solid rgb(59, 137, 255);
     border-radius: 10%;
