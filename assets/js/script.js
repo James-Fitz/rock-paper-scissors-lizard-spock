@@ -93,7 +93,7 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
-            resultText.innerHTML = 'You Win The Round!';
+            resultText.innerHTML = `<h2>You Win The Round!</h2>`;
             console.log("player wins the round");
             increasePlayerScore();
             break;
@@ -107,12 +107,12 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
-            resultText.innerHTML = 'Computer Wins The Round!';
+            resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
             console.log("computer wins the round");
             increaseComputerScore();
             break;
         default:
-            resultText.innerHTML = 'Draw!';
+            resultText.innerHTML = `<h2>Draw!</h2>`;
             break;
     }
     endGame();
