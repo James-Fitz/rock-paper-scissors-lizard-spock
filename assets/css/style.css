@@ -16,6 +16,9 @@ main, header {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+header {
+    margin: 0.5em;
+}
 #player-screen,
 #computer-screen {
     width: 10em;
@@ -37,6 +40,10 @@ main, header {
     padding: 1em;
 }
 
+#choice-buttons {
+    display: inline-block;
+}
+
 #choice-buttons>i {
     font-size: 5em;
     padding-left: .25em;
@@ -45,8 +52,7 @@ main, header {
 
 #choice-buttons>i:hover {
     
-    text-shadow: 2px 2px 4px #000000;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 #game-area {
@@ -58,8 +64,8 @@ main, header {
 }
 
 #rules-image {
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
 }
 
 .modal {
@@ -70,7 +76,7 @@ main, header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(232, 232, 232);
     border: 3px solid rgb(0, 0, 0);
     border-radius: 5%;
     padding: 1em;
