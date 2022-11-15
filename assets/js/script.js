@@ -157,7 +157,7 @@ resetButton.addEventListener("click", () => {
     computerScore = 0;
     document.getElementById("player-score").innerHTML = 0;
     document.getElementById("computer-score").innerHTML = 0;
-    resultText.innerHTML = "";
+    resultText.innerHTML = `<h2>Waiting for input...</h2>`;
     resultModal.style.display = "none";
 });
 
@@ -166,6 +166,6 @@ playAgainButton.addEventListener("click", () => {
     computerScore = 0;
     document.getElementById("player-score").innerHTML = 0;
     document.getElementById("computer-score").innerHTML = 0;
-    resultText.innerHTML = "";
+    resultText.innerHTML = `<h2>Waiting for input...</h2>`;
     resultModal.style.display = "none";
 });
