@@ -36,15 +36,18 @@ rulesButton.onclick = () => {
 closeModal.onclick = () => {
     rulesModal.style.display = "none";
 }
+
 /** 
  * Creates an array of all possible choices
  * Generates a random number between 0 and 4
  * Return computer choice from the array */
+
 function getComputerChoice() {
     const choices = ["rock", "paper", "scissors", "lizard", "spock"];
     const randomChoice = Math.floor(Math.random() * 5)
     return choices[randomChoice];
 }
+
 /**
  * Function to display the computers chosen icon in the display box
  * NOT WORKING AS INTENDED
@@ -94,7 +97,7 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             resultText.innerHTML = `<h2>You Win The Round!</h2>`;
-            console.log("player wins the round");
+            console.log("Player wins the round");
             increasePlayerScore();
             break;
         case 'scissorsrock':
@@ -108,11 +111,12 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
-            console.log("computer wins the round");
+            console.log("Computer wins the round");
             increaseComputerScore();
             break;
         default:
             resultText.innerHTML = `<h2>Draw!</h2>`;
+            console.log("Draw")
             break;
     }
     endGame();
