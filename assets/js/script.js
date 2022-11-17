@@ -4,7 +4,6 @@ const resultText = document.getElementById("game-result");
 
 const rulesButton = document.getElementById("rules-btn");
 const resetButton = document.getElementById("reset-btn");
-const startButton = document.getElementById("start-btn");
 const playAgainButton = document.getElementById("play-again-btn");
 
 let playerChoice;
@@ -44,7 +43,7 @@ closeModal.onclick = () => {
 
 function getComputerChoice() {
     const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-    const randomChoice = Math.floor(Math.random() * 5)
+    const randomChoice = Math.floor(Math.random() * 5);
     return choices[randomChoice];
 }
 
@@ -116,7 +115,7 @@ function getResult() {
             break;
         default:
             resultText.innerHTML = `<h2>Draw!</h2>`;
-            console.log("Draw")
+            console.log("Draw");
             break;
     }
     endGame();
@@ -152,7 +151,7 @@ function endGame() {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
         <h2>Unlucky... You lose...</h2>
-        <p>Don't give up, try again!</p>`)
+        <p>Don't give up, try again!</p>`);
     }
 }
 
