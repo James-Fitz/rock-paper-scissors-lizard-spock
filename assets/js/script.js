@@ -52,7 +52,8 @@ function getComputerChoice() {
  * NOT WORKING AS INTENDED
  */
 function displayComputerChoice() {
-
+let computerIcon = document.getElementById("display-computer-choice");
+computerIcon.className = `far fa-hand-${computerChoice}`;
 }
 /** 
  * Loop through all player choices.
@@ -95,6 +96,7 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
+            displayComputerChoice();
             resultText.innerHTML = `<h2>You Win The Round!</h2>`;
             console.log("Player wins the round");
             increasePlayerScore();
@@ -109,11 +111,13 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
+            displayComputerChoice();
             resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
             console.log("Computer wins the round");
             increaseComputerScore();
             break;
         default:
+            displayComputerChoice();
             resultText.innerHTML = `<h2>Draw!</h2>`;
             console.log("Draw");
             break;
