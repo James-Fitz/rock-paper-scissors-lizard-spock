@@ -10,6 +10,10 @@
     border: none;
 }
 
+html {
+    background-color: rgb(228, 228, 228);
+}
+
 /* Align everything to the center of the page */
 main,
 header {
