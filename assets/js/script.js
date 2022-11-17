@@ -152,11 +152,13 @@ function endGame() {
         modalResults.innerHTML = (`
         <h2>Well done! You won!!!</h2>
         <p>Try and win some more!</p>`);
+        noClick();
     } else if (computerScore === 5) {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
         <h2>Unlucky... You lose...</h2>
         <p>Don't give up, try again!</p>`);
+        noClick();
     }
 }
 
@@ -181,3 +183,15 @@ playAgainButton.addEventListener("click", () => {
     document.getElementById("display-player-choice").style.display="none";
     document.getElementById("display-computer-choice").style.display="none";
 });
+
+function resetStats() {
+
+}
+
+function noClick() {
+    document.getElementById("rock").style.pointerEvents = "none";
+    document.getElementById("paper").style.pointerEvents = "none";
+    document.getElementById("scissors").style.pointerEvents = "none";
+    document.getElementById("lizard").style.pointerEvents = "none";
+    document.getElementById("spock").style.pointerEvents = "none";
+}
