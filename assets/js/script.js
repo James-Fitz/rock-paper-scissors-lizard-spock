@@ -105,8 +105,6 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
-            displayComputerChoice();
-            displayPlayerChoice()
             resultText.innerHTML = `<h2>You Win The Round!</h2>`;
             console.log("Player wins the round");
             increasePlayerScore();
@@ -121,22 +119,16 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
-            displayPlayerChoice()
-            displayComputerChoice();
             resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
             console.log("Computer wins the round");
             increaseComputerScore();
             break;
         default:
-            displayPlayerChoice()
-            displayComputerChoice();
             resultText.innerHTML = `<h2>Draw!</h2>`;
             console.log("Draw");
             break;
     }
     endGame();
-    console.log(playerScore);
-    console.log(computerScore);
 }
 
 /** Function that controls the flow of the game.
@@ -146,8 +138,8 @@ function getResult() {
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
-    console.log(`Player choice is ${playerChoice}`);
-    console.log(`Computer choice is ${computerChoice}`);
+    displayPlayerChoice()
+    displayComputerChoice()
     getResult();
 }
 
@@ -156,13 +148,11 @@ function playGame(event) {
  */
 function endGame() {
     if (playerScore === 5) {
-        console.log("Player wins");
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
         <h2>Well done! You won!!!</h2>
         <p>Try and win some more!</p>`);
     } else if (computerScore === 5) {
-        console.log("Computer wins");
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
         <h2>Unlucky... You lose...</h2>
