@@ -8,8 +8,6 @@ const playAgainButton = document.getElementById("play-again-btn");
 
 let playerChoice;
 let computerChoice;
-let computerIcon = document.getElementById("display-computer-choice");
-let playerIcon = document.getElementById("display-player-choice");
 
 let playerScore = parseInt(document.getElementById("player-score").innerHTML);
 let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
@@ -48,13 +46,14 @@ function getComputerChoice() {
 }
 
 /**
- * Function to display the computers chosen icon in the display box
- * NOT WORKING AS INTENDED
+ * Function to display the computers chosen icon in the display box.
  */
+
 function displayComputerChoice() {
-let computerIcon = document.getElementById("display-computer-choice");
-computerIcon.className = `far fa-hand-${computerChoice}`;
+    let computerIcon = document.getElementById("display-computer-choice");
+    computerIcon.className = `far fa-hand-${computerChoice}`;
 }
+
 /** 
  * Loop through all player choices.
  * Once the player clicks a choice
@@ -62,6 +61,14 @@ computerIcon.className = `far fa-hand-${computerChoice}`;
  */
 for (let choice of playerChoices) {
     choice.addEventListener('click', playGame);
+}
+
+/** 
+ * Function to display players chosed icon in the display box.
+ */
+function displayPlayerChoice() {
+    let playerIcon = document.getElementById("display-player-choice");
+    playerIcon.className = `far fa-hand-${playerChoice}`;
 }
 
 /**
@@ -97,6 +104,7 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             displayComputerChoice();
+            displayPlayerChoice()
             resultText.innerHTML = `<h2>You Win The Round!</h2>`;
             console.log("Player wins the round");
             increasePlayerScore();
@@ -111,12 +119,14 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
+            displayPlayerChoice()
             displayComputerChoice();
             resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
             console.log("Computer wins the round");
             increaseComputerScore();
             break;
         default:
+            displayPlayerChoice()
             displayComputerChoice();
             resultText.innerHTML = `<h2>Draw!</h2>`;
             console.log("Draw");
@@ -137,7 +147,6 @@ function playGame(event) {
     console.log(`Player choice is ${playerChoice}`);
     console.log(`Computer choice is ${computerChoice}`);
     getResult();
-
 }
 
 /**

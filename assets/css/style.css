@@ -50,6 +50,12 @@ header {
     padding: 1em;
 }
 
+#display-player-choice, #display-computer-choice {
+    font-size: 8em;
+    text-align: center;
+    padding-top: 8%;
+}
+
 #choice-buttons {
     display: inline-block;
 }
