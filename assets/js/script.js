@@ -139,7 +139,7 @@ function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
     displayPlayerChoice();
-    displayComputerChoice();
+    setTimeout(displayComputerChoice, 100);
     getResult();
 }
 
