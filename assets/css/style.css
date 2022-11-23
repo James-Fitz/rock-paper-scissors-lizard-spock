@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: rgb(239, 238, 238);
+    background-color: rgb(232, 232, 232);
 }
 
 /* Align everything to the center of the page */
@@ -77,6 +77,7 @@ header {
 
 #choice-buttons>i:hover {
     transform: scale(1.2);
+    transition: transform 300ms ease-in-out;
     color: rgb(59, 137, 255);
 }
 
@@ -114,19 +115,26 @@ header {
 
 /* Stylinmg for all buttons */
 .button {
-    color: rgb(0, 0, 0);
+    color: black;
     background-color: white;
     font-size: 1.3em;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid black;
     border-radius: 8px;
     padding: .5em;
     margin: .5em;
 }
 
 .button:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
+    transition: transform 300ms ease-in-out;
+    background-color: rgba(232, 232, 232, 0);
+    border: none;
+    color: black;
+
+}
+
+#play-again-btn:hover {
     color: white;
-    background-color: rgb(111, 111, 111);
 }
     
 
