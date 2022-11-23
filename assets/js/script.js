@@ -162,6 +162,10 @@ function endGame() {
     }
 }
 
+/**
+ * Function to reset values and icons on the game area back to the default value.
+ */
+
 resetButton.addEventListener("click", () => {
     playerScore = 0;
     computerScore = 0;
@@ -186,6 +190,9 @@ playAgainButton.addEventListener("click", () => {
     resetClick();
 });
 
+/**
+ * Function to disable clicking on the icons, used when the game ends and result modal is active.
+ */
 function resetClick() {
     document.getElementById("rock").style.pointerEvents = "auto";
     document.getElementById("paper").style.pointerEvents = "auto";
@@ -193,6 +200,10 @@ function resetClick() {
     document.getElementById("lizard").style.pointerEvents = "auto";
     document.getElementById("spock").style.pointerEvents = "auto";
 }
+
+/**
+ * Function to enable clicking on the icons, used when the play again button is pressed, or the reset button is pressed.
+ */
 
 function noClick() {
     document.getElementById("rock").style.pointerEvents = "none";
