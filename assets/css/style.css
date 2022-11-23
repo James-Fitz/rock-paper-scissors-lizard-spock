@@ -129,8 +129,26 @@ header {
 
 /* Media queries */
 
+/* Media queries for 700px screen width and below */
+
+@media screen and (max-width: 700px) {
+    #rules-modal-content {
+        width: 80%;
+    }
+}
+/* Media queries for 500px screen width and below */
+
 @media screen and (max-width: 500px) {
     .players-area {
         display: inline-block;
     }
+
+    .modal {
+        width: 80%;
+    }
+
+    #rules-image {
+        width: 80%;
+        height: 80%;
+}
 }
