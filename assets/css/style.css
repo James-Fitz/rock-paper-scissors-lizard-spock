@@ -23,9 +23,11 @@ header {
 }
 
 /* Styling for header */
-header {
+header { 
     margin: 0.5em;
     word-spacing: 10px;
+    font-size: 120%;
+    border-radius: 8px;
 }
 
 /* Styling for game area */
