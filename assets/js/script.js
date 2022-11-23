@@ -138,9 +138,9 @@ function getResult() {
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
-    displayPlayerChoice();
-    setTimeout(displayComputerChoice, 100);
-    getResult();
+    setTimeout(displayPlayerChoice, 200);
+    setTimeout(displayComputerChoice, 200);
+    setTimeout(getResult, 400);
 }
 
 /**
