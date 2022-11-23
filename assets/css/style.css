@@ -137,8 +137,6 @@ header {
     color: white;
 }
     
-
-
 #modal-results {
     color: white;
 }
@@ -167,12 +165,11 @@ header {
         top: 100%;
     }
 
-    #rules-modal-content {
-        top: 90%;
-    }
-
     #rules-image {
         width: 80%;
         height: 80%;
-}
+    }
+    #choice-buttons>i {
+    font-size: 3em;
+    }
 }
