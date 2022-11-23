@@ -1,21 +1,21 @@
 /* Google fonts link */
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
-/* Removing default html page styling */
-
+/* Removing default  page styling for all elements */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body {
-    background: linear-gradient(to bottom, rgb(219, 219, 219), rgb(255, 255, 255));
-}
-
+/* Styling for whole html page */
 html {
     margin-top: 5%;
+}
+
+/* Styling for body of html */
+body {
+    background: linear-gradient(to bottom, rgb(219, 219, 219), rgb(255, 255, 255));
 }
 
 /* Align everything to the center of the page */
@@ -30,10 +30,6 @@ header {
     margin: 0.5em;
     word-spacing: 10px;
     border-radius: 8px;
-}
-header>span {
-    display: block;
-    color: red;
 }
 
 /* Styling for game area */
@@ -85,6 +81,7 @@ header>span {
     margin: .25em;
 }
 
+/* Hover effect for choice buttons */
 #choice-buttons>i:hover {
     transform: scale(1.2);
     transition: transform 300ms ease-in-out;
@@ -120,10 +117,14 @@ header>span {
 
 .modal p {
     font-size: 1.2em;
-
 }
 
-/* Stylinmg for all buttons */
+/* Styling for results modal content */
+#modal-results {
+    color: white;
+}
+
+/* Styling for all buttons */
 .button {
     color: black;
     background-color: white;
@@ -134,6 +135,7 @@ header>span {
     margin: .5em;
 }
 
+/* Hover effect for all buttons */
 .button:hover {
     transform: scale(1.05);
     transition: transform 300ms ease-in-out;
@@ -147,14 +149,9 @@ header>span {
     color: white;
 }
 
-#modal-results {
-    color: white;
-}
-
 /* Media queries */
 
 /* Media queries for 700px screen width and below */
-
 @media screen and (max-width: 700px) {
     #rules-modal-content {
         width: 80%;
@@ -162,7 +159,6 @@ header>span {
 }
 
 /* Media queries for 500px screen width and below */
-
 @media screen and (max-width: 500px) {
     html {
         margin-top: 0;
