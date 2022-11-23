@@ -15,7 +15,7 @@ html {
 
 /* Styling for body of html */
 body {
-    background: linear-gradient(to bottom, rgb(219, 219, 219), rgb(255, 255, 255));
+    background: rgb(237, 237, 237);
 }
 
 /* Align everything to the center of the page */
