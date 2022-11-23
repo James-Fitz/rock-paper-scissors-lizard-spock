@@ -10,8 +10,11 @@
     border: none;
 }
 
+body {
+    background: linear-gradient(to bottom, rgb(219, 219, 219), rgb(255, 255, 255));
+}
+
 html {
-    background-color: rgb(232, 232, 232);
     margin-top: 5%;
 }
 
@@ -26,8 +29,11 @@ header {
 header { 
     margin: 0.5em;
     word-spacing: 10px;
-    font-size: 120%;
     border-radius: 8px;
+}
+header>span {
+    display: block;
+    color: red;
 }
 
 /* Styling for game area */
