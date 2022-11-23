@@ -26,6 +26,17 @@ header {
     margin: 0.5em;
 }
 
+/* Styling for game area */
+#game-area {
+    width: 100%;
+}
+
+/* Styling for players-area */
+.players-area {
+    display: inline-flex;
+    padding: 1em;
+}
+
 /* Styling for player-screen and computer-screen, where icon choices are displayed */
 #player-screen,
 #computer-screen {
@@ -45,17 +56,15 @@ header {
     border-radius: 10%;
 }
 
-.players-area {
-    display: inline-flex;
-    padding: 1em;
-}
-
-#display-player-choice, #display-computer-choice {
+/* Styling for area where icon choices are displayed */
+#display-player-choice,
+#display-computer-choice {
     font-size: 8em;
     text-align: center;
     padding-top: 8%;
 }
 
+/* Styling for icon buttons */
 #choice-buttons {
     display: inline-block;
 }
@@ -67,23 +76,20 @@ header {
 }
 
 #choice-buttons>i:hover {
-
     transform: scale(1.2);
-}
-
-#game-area {
-    width: 100%;
 }
 
 #make-choice-heading {
     padding-top: 0.5em;
 }
 
+/* Styling for image of rules in modal pop up */
 #rules-image {
     width: 50%;
     height: 50%;
 }
 
+/* Styling for all modals */
 .modal {
     display: none;
     position: absolute;
@@ -97,18 +103,15 @@ header {
     border-radius: 5%;
     padding: 1em;
     box-shadow: rgb(45, 55, 65) 0px 20px 30px -10px;
+    text-align: center;
 }
 
 .modal p {
     font-size: 1.2em;
-    
+
 }
 
-#result-modal-content,
-#rules-modal-content {
-    text-align: center;
-}
-
+/* Stylinmg for all buttons */
 .button {
     color: rgb(0, 102, 255);
     background-color: white;
