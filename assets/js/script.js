@@ -106,7 +106,6 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             resultText.innerHTML = `<h2>You Win The Round!</h2>`;
-            console.log("Player wins the round");
             increasePlayerScore();
             break;
         case 'scissorsrock':
@@ -120,7 +119,6 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
-            console.log("Computer wins the round");
             increaseComputerScore();
             break;
         default:
