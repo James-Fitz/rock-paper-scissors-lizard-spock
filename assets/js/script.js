@@ -24,7 +24,7 @@ let modalResults = document.getElementById("modal-results");
 
 rulesButton.onclick = () => {
     rulesModal.style.display = "block";
-}
+};
 
 /** 
  * Function to close modal when close button is clicked
@@ -138,8 +138,8 @@ function getResult() {
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
-    displayPlayerChoice()
-    displayComputerChoice()
+    displayPlayerChoice();
+    displayComputerChoice();
     getResult();
 }
 
