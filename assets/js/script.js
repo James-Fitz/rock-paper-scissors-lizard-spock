@@ -106,6 +106,7 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             resultText.innerHTML = `<h2>You Win The Round!</h2>`;
+            resultText.style.color = "rgb(0, 102, 255)";
             increasePlayerScore();
             break;
         case 'scissorsrock':
@@ -119,10 +120,12 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
+            resultText.style.color = "rgb(255, 103, 103)";
             increaseComputerScore();
             break;
         default:
             resultText.innerHTML = `<h2>Draw!</h2>`;
+            resultText.style.color = "rgb(255, 191, 0)";
             console.log("Draw");
             break;
     }
@@ -136,6 +139,8 @@ function getResult() {
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
+    resultText.style.color = "rgb(0, 0, 0)";
+    resultText.innerHTML = `<h2>.....</h2>`;
     setTimeout(displayPlayerChoice, 200);
     setTimeout(displayComputerChoice, 200);
     setTimeout(getResult, 400);
@@ -171,6 +176,7 @@ function reset() {
     document.getElementById("player-score").innerHTML = 0;
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = `<h2>Waiting for input...</h2>`;
+    resultText.style.color = "rgb(0, 0, 0)";
     resultModal.style.display = "none";
     document.getElementById("display-player-choice").style.display = "none";
     document.getElementById("display-computer-choice").style.display = "none";
