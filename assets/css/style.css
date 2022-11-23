@@ -25,6 +25,7 @@ header {
 /* Styling for header */
 header {
     margin: 0.5em;
+    word-spacing: 10px;
 }
 
 /* Styling for game area */
