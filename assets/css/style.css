@@ -21,27 +21,27 @@ header {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* Styling for header */
 header {
     margin: 0.5em;
 }
 
+/* Styling for player-screen and computer-screen, where icon choices are displayed */
 #player-screen,
 #computer-screen {
     width: 10em;
     height: 10em;
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 1em;
 }
 
 #player-screen {
     background-color: rgb(59, 137, 255);
-    border: 3px solid black;
     border-radius: 10%;
 }
 
 #computer-screen {
     background-color: rgb(255, 103, 103);
-    border: 3px solid black;
     border-radius: 10%;
 }
 
