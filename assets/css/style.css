@@ -124,9 +124,12 @@ header {
 }
 
 .button:hover {
-
-    
+    transform: scale(1.2);
+    color: white;
+    background-color: rgb(111, 111, 111);
 }
+    
+
 
 #modal-results {
     color: white;
