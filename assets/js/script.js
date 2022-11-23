@@ -152,12 +152,14 @@ function endGame() {
         modalResults.innerHTML = (`
         <h2>Well done! You won!!!</h2>
         <p>Try and win some more!</p>`);
+        resultModal.style.backgroundColor = "rgb(0, 102, 255)";
         noClick();
     } else if (computerScore === 5) {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
         <h2>Unlucky... You lose...</h2>
         <p>Don't give up, try again!</p>`);
+        resultModal.style.backgroundColor = "rgb(255, 103, 103)";
         noClick();
     }
 }
