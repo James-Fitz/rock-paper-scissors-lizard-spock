@@ -147,6 +147,14 @@ header {
         width: 80%;
     }
 
+    #result-modal-content {
+        top: 100%;
+    }
+
+    #rules-modal-content {
+        top: 90%;
+    }
+
     #rules-image {
         width: 80%;
         height: 80%;
