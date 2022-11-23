@@ -52,7 +52,7 @@ function getComputerChoice() {
 function displayComputerChoice() {
     let computerIcon = document.getElementById("display-computer-choice");
     computerIcon.className = `far fa-hand-${computerChoice}`;
-    computerIcon.style.display="block";
+    computerIcon.style.display = "block";
 }
 
 /** 
@@ -70,7 +70,7 @@ for (let choice of playerChoices) {
 function displayPlayerChoice() {
     let playerIcon = document.getElementById("display-player-choice");
     playerIcon.className = `far fa-hand-${playerChoice}`;
-    playerIcon.style.display="block";
+    playerIcon.style.display = "block";
 }
 
 /**
@@ -173,8 +173,8 @@ resetButton.addEventListener("click", () => {
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = `<h2>Waiting for input...</h2>`;
     resultModal.style.display = "none";
-    document.getElementById("display-player-choice").style.display="none";
-    document.getElementById("display-computer-choice").style.display="none";
+    document.getElementById("display-player-choice").style.display = "none";
+    document.getElementById("display-computer-choice").style.display = "none";
     resetClick();
 });
 
@@ -185,8 +185,8 @@ playAgainButton.addEventListener("click", () => {
     document.getElementById("computer-score").innerHTML = 0;
     resultText.innerHTML = `<h2>Waiting for input...</h2>`;
     resultModal.style.display = "none";
-    document.getElementById("display-player-choice").style.display="none";
-    document.getElementById("display-computer-choice").style.display="none";
+    document.getElementById("display-player-choice").style.display = "none";
+    document.getElementById("display-computer-choice").style.display = "none";
     resetClick();
 });
 
