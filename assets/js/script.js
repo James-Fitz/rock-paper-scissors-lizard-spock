@@ -171,7 +171,7 @@ resetButton.addEventListener("click", () => {
     resultModal.style.display = "none";
     document.getElementById("display-player-choice").style.display="none";
     document.getElementById("display-computer-choice").style.display="none";
-    resetStats();
+    resetClick();
 });
 
 playAgainButton.addEventListener("click", () => {
@@ -183,10 +183,10 @@ playAgainButton.addEventListener("click", () => {
     resultModal.style.display = "none";
     document.getElementById("display-player-choice").style.display="none";
     document.getElementById("display-computer-choice").style.display="none";
-    resetStats();
+    resetClick();
 });
 
-function resetStats() {
+function resetClick() {
     document.getElementById("rock").style.pointerEvents = "auto";
     document.getElementById("paper").style.pointerEvents = "auto";
     document.getElementById("scissors").style.pointerEvents = "auto";
