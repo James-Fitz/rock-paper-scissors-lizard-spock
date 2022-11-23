@@ -48,12 +48,12 @@ header {
 
 #player-screen {
     background-color: rgb(59, 137, 255);
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 #computer-screen {
     background-color: rgb(255, 103, 103);
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 /* Styling for area where icon choices are displayed */
@@ -100,7 +100,7 @@ header {
     transform: translate(-50%, -50%);
     background-color: rgb(232, 232, 232);
     border: 3px solid rgb(0, 0, 0);
-    border-radius: 5%;
+    border-radius: 8px;
     padding: 1em;
     box-shadow: rgb(45, 55, 65) 0px 20px 30px -10px;
     text-align: center;
@@ -117,7 +117,7 @@ header {
     background-color: white;
     font-size: 1.3em;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 5%;
+    border-radius: 8px;
     padding: .5em;
     margin: .5em;
 }
