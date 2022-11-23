@@ -150,15 +150,15 @@ function endGame() {
     if (playerScore === 5) {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
-        <h2>Well done! You won!!!</h2>
-        <p>Try and win some more!</p>`);
+        <h2>Well Done! You Won!!!</h2>
+        <p>Try and Win Some More!</p>`);
         resultModal.style.backgroundColor = "rgba(0, 102, 255, 0.95)";
         noClick();
     } else if (computerScore === 5) {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
-        <h2>Unlucky... You lose...</h2>
-        <p>Don't give up, try again!</p>`);
+        <h2>Unlucky... You Lose...</h2>
+        <p>Don't Give Up, Try Again!</p>`);
         resultModal.style.backgroundColor = "rgba(255, 103, 103, 0.95)";
         noClick();
     }
@@ -167,8 +167,7 @@ function endGame() {
 /**
  * Function to reset values and icons on the game area back to the default value.
  */
-
-resetButton.addEventListener("click", () => {
+function reset() {
     playerScore = 0;
     computerScore = 0;
     document.getElementById("player-score").innerHTML = 0;
@@ -178,19 +177,13 @@ resetButton.addEventListener("click", () => {
     document.getElementById("display-player-choice").style.display = "none";
     document.getElementById("display-computer-choice").style.display = "none";
     resetClick();
-});
+}
 
-playAgainButton.addEventListener("click", () => {
-    playerScore = 0;
-    computerScore = 0;
-    document.getElementById("player-score").innerHTML = 0;
-    document.getElementById("computer-score").innerHTML = 0;
-    resultText.innerHTML = `<h2>Waiting for input...</h2>`;
-    resultModal.style.display = "none";
-    document.getElementById("display-player-choice").style.display = "none";
-    document.getElementById("display-computer-choice").style.display = "none";
-    resetClick();
-});
+/* Event listener for reset button click which runs the reset function */
+resetButton.addEventListener("click", reset);
+
+/* Event listener for playAgain button click which runs the reset function */
+playAgainButton.addEventListener("click", reset);
 
 /**
  * Function to disable clicking on the icons, used when the game ends and result modal is active.
