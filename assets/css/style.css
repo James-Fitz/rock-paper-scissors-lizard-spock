@@ -155,6 +155,10 @@ header {
 /* Media queries for 500px screen width and below */
 
 @media screen and (max-width: 500px) {
+    html {
+        margin-top: 0;
+    }
+
     .players-area {
         display: inline-block;
     }
@@ -170,5 +174,20 @@ header {
 
     #choice-buttons>i {
         font-size: 3em;
+    }
+
+    #player-screen,
+    #computer-screen {
+
+        width: 6em;
+        height: 6em;
+
+    }
+
+    #display-player-choice,
+    #display-computer-choice {
+        font-size: 5em;
+        text-align: center;
+        padding-top: 8%;
     }
 }
