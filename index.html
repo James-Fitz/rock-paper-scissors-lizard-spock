@@ -19,9 +19,10 @@
     <main>
         <!-- Game area conataining all elements of the game -->
         <div id="game-area">
-            <!-- Player area contains player score and icon chosen -->
+            <!-- Players area contains player/computer score and icon chosen -->
             <div class="players-area">
-                <div class="player-box">
+                <!-- Players game area-->
+                <div id="player-box">
                     <!-- Tracks the players score -->
                     <h2>Player: <span id="player-score">0</span></h2>
                     <div id="player-screen">
@@ -32,16 +33,21 @@
                 <div>
                     <h2>Vs.</h2>
                 </div>
-                <div class="player-box">
+                <!-- Computers game area-->
+                <div id="computer-box">
+                    <!-- Tracks the computers score -->
                     <h2>Computer: <span id="computer-score">0</span></h2>
                     <div id="computer-screen">
+                        <!-- Displays the computers chosen icon -->
                         <span id="display-computer-choice"></span>
                     </div>
                 </div>
             </div>
+            <!-- Displays the results of each round -->
             <div id="game-result">
                 <h2>Waiting for input...</h2>
             </div>
+            <!-- Button icons which determines the players choice -->
             <div id="choice-buttons">
                 <h2 id="make-choice-heading">Make your choice...</h2>
                 <i id="rock" class="fa-regular fa-hand-rock choice"></i>
@@ -50,11 +56,13 @@
                 <i id="lizard" class="fa-regular fa-hand-lizard choice"></i>
                 <i id="spock" class="fa-regular fa-hand-spock choice"></i>
             </div>
+            <!-- Buttons for rules and reset -->
             <div id="extras">
                 <button id="rules-btn" class="button">Rules</button>
                 <button id="reset-btn" class="button">Reset</button>
             </div>
         </div>
+        <!-- Rules modal pop up that will be displayed when the user clicks on the rules button -->
         <div id="rules-modal">
             <div id="rules-modal-content" class="modal">
                 <h2>Rules</h2>
@@ -62,18 +70,25 @@
                 <p>We've added two more selections to spice thing up!</p>
                 <p>First to win 5 games is the overall winner</p>
                 <p>Good luck!</p>
+                <!-- Image of the rock paper scissors lizard spock rules -->
                 <div><img id="rules-image" src="assets/images/rpsls-rules.png"
                         alt="rock paper scissors lizard spock rules"></div>
+                        <!-- Button to close the rules modal -->
                 <div><button id="close-modal-btn" class="button">Close</button></div>
             </div>
         </div>
+
+        <!-- Modal pop up that will display the results when the game is over -->
         <div id="result-modal">
             <div id="result-modal-content" class="modal">
                 <div id="modal-results"></div>
+                <!-- Play again button that will reset the game state to default values -->
                 <button class="button" id="play-again-btn">Play again!</button>
             </div>
         </div>
+        <!-- Script for fontawesome icons -->
         <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
+        <!-- Script linking to js file -->
         <script src="assets/js/script.js"></script>
     </main>
     <footer>
