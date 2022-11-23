@@ -12,6 +12,7 @@
 
 html {
     background-color: rgb(232, 232, 232);
+    margin-top: 5%;
 }
 
 /* Align everything to the center of the page */
@@ -136,7 +137,7 @@ header {
 #play-again-btn:hover {
     color: white;
 }
-    
+
 #modal-results {
     color: white;
 }
@@ -150,6 +151,7 @@ header {
         width: 80%;
     }
 }
+
 /* Media queries for 500px screen width and below */
 
 @media screen and (max-width: 500px) {
@@ -165,7 +167,8 @@ header {
         width: 80%;
         height: 80%;
     }
+
     #choice-buttons>i {
-    font-size: 3em;
+        font-size: 3em;
     }
 }

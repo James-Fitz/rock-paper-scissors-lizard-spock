@@ -2,6 +2,15 @@
 
 ## Introduction
 
+Rock paper scissors lizard spock was first introduced to the world in The Big Bang Theory. 
+It is a game of chance, just like to original rock paper scissors game, with some added variables.
+The rules are very straight forward, as stated by Sheldon in the Big Bang Theory, “"Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
+The game I have created takes the users input, determines a random selection for the computer and displays the selection of both player and computer and outputs the result.
+The scores are displayed above the corresponding screen for player and computer.
+The score is incremented after each win/loss.
+The game will end when either the player or the computer reaches a score of 5.
+
+
 ## Features
 
 ## UX
