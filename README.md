@@ -52,23 +52,44 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
 
 <details><summary>Rules Modal</summary>
 
-The rules modal is displayed as soon as the page is loaded. This ensures that the user will be presented with the rules immediately and will understand how the game works.
+The rules modal is displayed as soon as the page is loaded. 
+
+This ensures that the user will be presented with the rules immediately and will understand how the game works.
+
 <img src="assets/images/readme-images/rules-modal.webp" alt="Rules image modal popup" width="500">
 </details>
 
 <details><summary>Header</summary>
 
+<img src="assets/images/readme-images/header.webp" alt="Image of header" width="500">
+
 </details>
 
 <details><summary>Gameplay Screen</summary>
+
+<img src="assets/images/readme-images/gameplay-screen.webp" alt="Image of gameplay screen" width="500">
 
 </details>
 
 <details><summary>Round Results Area</summary>
 
+There are four different options that can be displayed in the round results area.
+
+- "Waiting for input" is the default string that is displayed.
+
+- "Computer wins the round!" is displayed when the computer wins a round.
+
+- "You win the round!" is displayed when the player wins a round.
+
+- "Draw!" is displayed when the computer and player make the same choice.
+
+<img src="assets/images/readme-images/round-results.webp" alt="Image of round results area" width="500">
+
 </details>
 
 <details><summary>Player Choice Icons</summary>
+
+<img src="assets/images/readme-images/icon-choice-area" alt="Image of icons for player to choose from" width="500">
 
 </details>
 
