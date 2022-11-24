@@ -109,7 +109,7 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
-            resultText.innerHTML = `<h2>You Win The Round!</h2>`;
+            resultText.innerHTML = `<h2>You win whe round!</h2>`;
             resultText.style.color = "rgb(0, 102, 255)";
             increasePlayerScore();
             break;
@@ -123,7 +123,7 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
-            resultText.innerHTML = `<h2>Computer Wins The Round!</h2>`;
+            resultText.innerHTML = `<h2>Computer Wins the round!</h2>`;
             resultText.style.color = "rgb(255, 103, 103)";
             increaseComputerScore();
             break;
@@ -157,15 +157,15 @@ function endGame() {
     if (playerScore === 5) {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
-        <h2>Well Done! You Won!!!</h2>
-        <p>Try and Win Some More!</p>`);
+        <h2>Well Done! You won!!!</h2>
+        <p>Try and win some more!</p>`);
         resultModal.style.backgroundColor = "rgba(0, 102, 255, 0.95)";
         noClick();
     } else if (computerScore === 5) {
         resultModal.style.display = "block";
         modalResults.innerHTML = (`
-        <h2>Unlucky... You Lose...</h2>
-        <p>Don't Give Up, Try Again!</p>`);
+        <h2>Unlucky... You lose...</h2>
+        <p>Don't give up, try again!</p>`);
         resultModal.style.backgroundColor = "rgba(255, 103, 103, 0.95)";
         noClick();
     }
