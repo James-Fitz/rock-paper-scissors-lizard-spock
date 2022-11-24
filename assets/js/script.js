@@ -138,7 +138,6 @@ function getResult() {
         default:
             resultText.innerHTML = `<h2>Draw!</h2>`;
             resultText.style.color = "rgb(255, 191, 0)";
-            console.log("Draw");
             break;
     }
     endGame();
