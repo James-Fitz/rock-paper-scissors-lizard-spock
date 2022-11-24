@@ -14,6 +14,11 @@ The game will end when either the player or the computer reaches a score of 5.
 ## Features
 
 ## UX
+### Introduction
+I wanted to utilize a very simple, clear UX for this project. 
+The page opens up on the rules modal which clearly states the rules for the player.
+### Color palette 
+### Wireframe
 
 ## Testing
 

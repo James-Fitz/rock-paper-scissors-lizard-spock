@@ -109,7 +109,7 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
-            resultText.innerHTML = `<h2>You win whe round!</h2>`;
+            resultText.innerHTML = `<h2>You win the round!</h2>`;
             resultText.style.color = "rgb(0, 102, 255)";
             increasePlayerScore();
             break;
@@ -123,7 +123,7 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
-            resultText.innerHTML = `<h2>Computer Wins the round!</h2>`;
+            resultText.innerHTML = `<h2>Computer wins the round!</h2>`;
             resultText.style.color = "rgb(255, 103, 103)";
             increaseComputerScore();
             break;
