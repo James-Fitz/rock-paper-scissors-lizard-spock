@@ -145,12 +145,9 @@ There are two buttons underneath the gameplay area.
 </details>
 
 ## UX
-<details><summary>UX Introduction</summary>  
 
 I wanted to utilize a very simple, clear UX for this project. 
-The page opens up on the rules modal which clearly states the rules for the player.
-
-</details>
+The page opens up on the rules modal which clearly states the rules for the player.  
 
 <details><summary>Color Palette</summary>  
 
@@ -171,21 +168,43 @@ I chose a clean, simple font to maximise readability and ensure a positive user 
 I kept the wireframe design simple as I wanted this project to be clear, to the point and simple to understand/read.  
 The wireframe design is very similar to the finished project.  
 
+<details><summary>Opening Home Page</summary>  
+
 - Opening home page  
 ![Image of wireframe homepage](readme-images/wireframe-homepage.webp)  
+
+</details>  
+
+<details><summary>Game Screen</summary>  
 
 - Game Screen  
 ![Image of wireframe game screen](readme-images/wireframe-game-screen.webp)  
 
+</details>  
+
+<details><summary>Win Screen</summary>  
+
 - Win screen  
 ![Image of wireframe win screen](readme-images/wireframe-win-screen.webp)  
+
+</details>  
+
+<details><summary>Mobile View</summary>  
 
 - Mobile view  
 ![Image of wireframe mobile screen](readme-images/wireframe-mobile.webp)  
 
+</details>  
+
 ## Testing
 
 <details><summary>Responsiveness</summary>  
+
+- Responsiveness of ipad mini screen  
+![Image of iPad screen width](readme-images/ipad-responsive.webp)  
+
+- Responsiveness of 320px screen width  
+![Image of 320px screen width responsiveness](readme-images/320-responsive.webp)  
 
 </details>  
 
