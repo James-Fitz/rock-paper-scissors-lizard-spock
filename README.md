@@ -38,8 +38,14 @@ The page opens up on the rules modal which clearly states the rules for the play
 ### Lighthouse result
 
 ## Technology Used
+### Programs used
+### Languages used
 
 ## Deployment
+### Github pages
+### How to clone
+### How to fork
+### How to make local clone
 
 ## Credits
 
@@ -50,5 +56,5 @@ Favicon image from freepik - https://www.flaticon.com/free-icon/rock-paper-sciss
 Rules image taken from Big Bang Theory Wiki page - https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
 
 ### Code
-
-Help with code from Slack and Mentor Chris Quinn
+https://www.w3schools.com/ - Used to learn about modals and extra features for JS functions.
+Help with code from Slack, tutor support and Mentor Chris Quinn.
