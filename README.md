@@ -200,6 +200,10 @@ The wireframe design is very similar to the finished project.
 
 <details><summary>Responsiveness</summary>  
 
+The application has been tested on multiple devices and at multiple screen width to ensure responsive design at all levels.
+Media queries were used at lower screen widths to ensure the application stays responsive.
+The display icon boxes were moved to a vertical stack to ensure they can still be viewed at lower screen width.
+
 - Responsiveness of ipad mini screen  
 ![Image of iPad screen width](readme-images/ipad-responsive.webp)  
 
