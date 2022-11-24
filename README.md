@@ -60,6 +60,7 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
 ### Rules Modal
 
 The rules modal is displayed as soon as the page is loaded. This ensures that the user will be presented with the rules immediately and will understand how the game works.
+<img src="assets/images/readme-images/rules-modal.webp" alt="Rules image modal popup" width="500">
 
 ### Header
 
