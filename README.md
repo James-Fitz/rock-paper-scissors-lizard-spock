@@ -157,6 +157,9 @@ The page opens up on the rules modal which clearly states the rules for the play
 ![Image of color palette used](readme-images/color-palette.webp)  
 
 ### Font
+
+![Image of font used](readme-images/font.webp)  
+
 ### Wireframe
 
 ## Testing
