@@ -154,9 +154,9 @@ function playGame(event) {
     computerChoice = getComputerChoice();
     resultText.style.color = "rgb(0, 0, 0)";
     resultText.innerHTML = `<h2>.....</h2>`;
-    setTimeout(displayPlayerChoice, 200);
-    setTimeout(displayComputerChoice, 200);
-    setTimeout(getResult, 400);
+    setTimeout(displayPlayerChoice, 150);
+    setTimeout(displayComputerChoice, 150);
+    setTimeout(getResult, 200);
 }
 
 /**

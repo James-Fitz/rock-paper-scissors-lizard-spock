@@ -19,7 +19,7 @@ The game will end when either the player or the computer reaches a score of 5.
 
 <br>
 
-<img src="assets/images/readme-images/responsive.webp" alt="Am i responsive image" width="700">
+![Am i responsive image](readme-images/responsive.webp)  
 
 <br>
 
@@ -58,14 +58,15 @@ The rules modal is displayed as soon as the page is loaded.
 
 This ensures that the user will be presented with the rules immediately and will understand how the game works.
 
-<img src="assets/images/readme-images/rules-modal.webp" alt="Rules image modal popup" width="500">
+![Rules image modal popup](readme-images/rules-modal.webp)  
+
 </details>
 
 <details><summary>Header</summary>
 
 A simple header with icons corresponding to the relevent choices available in the game.
 
-<img src="assets/images/readme-images/header.webp" alt="Image of header" width="500">
+![Image of header](readme-images/header.webp)  
 
 </details>
 
@@ -76,9 +77,7 @@ The players choice icon is displayed in the blue box.
 The computers choice icon is displayed in the red box.  
 The scores are displayed above the colored boxes. 
 
-<img src="assets/images/readme-images/gameplay-screen.webp" alt="Image of gameplay screen" width="500">
-
-</details>
+![Image of gameplay screen](readme-images/gameplay-screen.webp)  
 
 <details><summary>Round Results Area</summary>
 
@@ -89,22 +88,22 @@ There are four different options that can be displayed in the round results area
 - "You win the round!" is displayed when the player wins a round.
 - "Draw!" is displayed when the computer and player make the same choice.
 
-<img src="assets/images/readme-images/round-results.webp" alt="Image of round results area" width="500">  
+![Image of round results area](readme-images/round-results.webp)  
 
 <br>
 
-When the playeer wins, the win round message is displayed and the players score is increased by one.  
-<img src="assets/images/readme-images/round-win.webp" alt="Image of round results area when player wins" width="500">   
+When the player wins, the win round message is displayed and the players score is increased by one.  
+![Image of round results area when player wins](readme-images/round-win.webp)  
 
 <br>
 
 When the computer wins, the computer wins message is displayed and the computers score is increased by one.  
-<img src="assets/images/readme-images/round-loss.webp" alt="Image of round results area when player losses" width="500">  
+![Image of round results area when player losses](readme-images/round-loss.webp)  
 
 <br>
 
 When there is a draw result, the draw message is displayed and neither scores are increased.  
-<img src="assets/images/readme-images/round-draw.webp" alt="Image of round results area when there is a draw" width="500">  
+![Image of round results area when there is a draw](readme-images/round-draw.webp)  
 
 <br>
 
@@ -114,7 +113,7 @@ When there is a draw result, the draw message is displayed and neither scores ar
 
 There are five choices that the player can make. Each icon will increase in size and change to blue when the player hovers over it.
 
-<img src="assets/images/readme-images/icon-choice-area.webp" alt="Image of icons for player to choose from" width="500">
+![Image of icons for player to choose from](readme-images/icon-choice-area.webp)  
 
 </details>
 
@@ -125,19 +124,19 @@ There are two buttons underneath the gameplay area.
 - The rules button will display a modal pop up with the rules for the game.
 - The reset button will reset all of the gameplay area to it's default values.
 
-<img src="assets/images/readme-images/buttons.webp" alt="Image of buttons at the bottom of screen" width="500">
+![Image of buttons at the bottom of screen](readme-images/buttons.webp)  
 
 </details>
 
 <details><summary>Results Modals</summary>
 
 - This modal pop up is displayed when the user reaches 5 round wins and wins the game.  
-<img src="assets/images/readme-images/win-modal.webp" alt="Image of win results modal" width="500">  
+![Image of win results modal](readme-images/win-modal.webp)  
 
 <br>
 
 - This modal pop up is displayed when the computer reaches 5 round wins and wins the game.  
-<img src="assets/images/readme-images/lose-modal.webp" alt="Image of lose results modal" width="500">  
+![Image of lose results modal](readme-images/lose-modal.webp)  
 
 </details>
 
@@ -159,19 +158,18 @@ The page opens up on the rules modal which clearly states the rules for the play
 ### Validator Testing
 
 HTML Validator Result  
-<img src="assets/images/readme-images/html-validator.webp" alt="Image of html validator results" width="500">  
+![Image of html validator results](readme-images/html-validator.webp)  
 
 <br> 
 
 CSS Validator Result  
-<img src="assets/images/readme-images/css-validator.webp" alt="Image of css validator results" width="500">  
+![Image of css validator results](readme-images/css-validator.webp)  
 
 
 ### Lighthouse Result
 
 Lighthouse Result  
-<img src="assets/images/readme-images/lighthouse-results.webp" alt="Image of lighthouse test results" width="500">  
-
+![Image of lighthouse test results](readme-images/lighthouse-results.webp)  
 ## Technology Used
 ### Programs Used
 ### Languages Used
