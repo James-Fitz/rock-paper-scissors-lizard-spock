@@ -28,13 +28,6 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
-    - [Rules Modal](#rules-modal)
-    - [Header](#header)
-    - [Gameplay Screen](#gameplay-screen)
-    - [Round Results Area](#round-results-area)
-    - [Player Choice Icons](#player-choice-icons)
-    - [Extra Buttons](#extra-buttons)
-    - [Future Features](#future-features)
   - [UX](#ux)
     - [UX Introduction](#ux-introduction)
     - [Color Palette](#color-palette)
@@ -57,22 +50,35 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
 
 ## Features
 
-### Rules Modal
+<details><summary>Rules Modal</summary>
 
 The rules modal is displayed as soon as the page is loaded. This ensures that the user will be presented with the rules immediately and will understand how the game works.
 <img src="assets/images/readme-images/rules-modal.webp" alt="Rules image modal popup" width="500">
+</details>
 
-### Header
+<details><summary>Header</summary>
 
-### Gameplay Screen
+</details>
 
-### Round Results Area
+<details><summary>Gameplay Screen</summary>
 
-### Player Choice Icons
+</details>
 
-### Extra Buttons
+<details><summary>Round Results Area</summary>
 
-### Future Features
+</details>
+
+<details><summary>Player Choice Icons</summary>
+
+</details>
+
+<details><summary>Extra Buttons</summary>
+
+</details>
+
+<details><summary>Future Features</summary>
+
+</details>
 
 ## UX
 ### UX Introduction
