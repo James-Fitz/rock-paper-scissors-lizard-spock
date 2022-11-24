@@ -31,7 +31,7 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
   - [**Table of Contents**](#table-of-contents)
   - [**Features**](#features)
   - [**UX**](#ux)
-    - [**Wireframe**](#wireframe)
+  - [**Wireframe**](#wireframe)
   - [**Testing**](#testing)
   - [**Technology Used**](#technology-used)
   - [**Deployment**](#deployment)
@@ -157,7 +157,7 @@ I chose a clean, simple font to maximise readability and ensure a positive user 
 
 </details>   
 
-### **Wireframe**    
+## **Wireframe**    
 
 I kept the wireframe design simple as I wanted this project to be clear, to the point and simple to understand/read.  
 The wireframe design is very similar to the finished project.  
