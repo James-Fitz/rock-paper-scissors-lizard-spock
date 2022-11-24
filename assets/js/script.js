@@ -1,4 +1,5 @@
 /** Setting gloabal variables */
+
 const playerChoices = document.getElementsByClassName("choice");
 const resultText = document.getElementById("game-result");
 
@@ -36,7 +37,7 @@ rulesButton.onclick = () => {
 
 closeModal.onclick = () => {
     rulesModal.style.display = "none";
-}
+};
 
 /** 
  * Creates an array of all possible choices
@@ -65,6 +66,7 @@ function displayComputerChoice() {
  * Once the player clicks a choice
  * playGame function will run
  */
+
 for (let choice of playerChoices) {
     choice.addEventListener('click', playGame);
 }
@@ -72,6 +74,7 @@ for (let choice of playerChoices) {
 /** 
  * Function to display players chosed icon in the display box.
  */
+
 function displayPlayerChoice() {
     let playerIcon = document.getElementById("display-player-choice");
     playerIcon.className = `far fa-hand-${playerChoice}`;
@@ -82,6 +85,7 @@ function displayPlayerChoice() {
 /**
  * Function to increase player score by one.
  */
+
 function increasePlayerScore() {
     document.getElementById("player-score").innerHTML = ++playerScore;
 }
@@ -89,6 +93,7 @@ function increasePlayerScore() {
 /**
  * Function to increase computer score by one.
  */
+
 function increaseComputerScore() {
     document.getElementById("computer-score").innerHTML = ++computerScore;
 }
@@ -99,6 +104,7 @@ function increaseComputerScore() {
  * Increases the score of the winner by one.
  * Runs the endGame function once the round result is determined.
  */
+
 function getResult() {
     switch (playerChoice + computerChoice) {
         case 'rockscissors':
@@ -142,6 +148,7 @@ function getResult() {
  * Console logs player choice and computer choice.
  * Runs the getResult function to determine the winner.
  */
+
 function playGame(event) {
     playerChoice = event.target.id;
     computerChoice = getComputerChoice();
@@ -155,6 +162,7 @@ function playGame(event) {
 /**
  *  Function to end the game when either player reaches 5 wins or computer reaches 5 wins.
  */
+
 function endGame() {
     if (playerScore === 5) {
         resultModal.style.display = "block";
@@ -176,6 +184,7 @@ function endGame() {
 /**
  * Function to reset values and icons on the game area back to the default value.
  */
+
 function reset() {
     playerScore = 0;
     computerScore = 0;
@@ -190,14 +199,17 @@ function reset() {
 }
 
 /* Event listener for reset button click which runs the reset function */
+
 resetButton.addEventListener("click", reset);
 
 /* Event listener for playAgain button click which runs the reset function */
+
 playAgainButton.addEventListener("click", reset);
 
 /**
  * Function to disable clicking on the icons, used when the game ends and result modal is active.
  */
+
 function resetClick() {
     document.getElementById("rock").style.pointerEvents = "auto";
     document.getElementById("paper").style.pointerEvents = "auto";
