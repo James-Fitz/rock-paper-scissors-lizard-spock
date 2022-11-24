@@ -150,6 +150,7 @@ There are two buttons underneath the gameplay area.
 
 ## UX
 ### UX Introduction
+
 I wanted to utilize a very simple, clear UX for this project. 
 The page opens up on the rules modal which clearly states the rules for the player.
 ### Color Palette  
@@ -163,6 +164,14 @@ I chose a clean, simple font to maximise readability and ensure a positive user 
 ![Image of font used](readme-images/font.webp)  
 
 ### Wireframe
+
+![Image of wireframe homepage](readme-images/wireframe-homepage.webp)  
+
+![Image of wireframe game screen](readme-images/wireframe-game-screen.webp)  
+
+![Image of wireframe win screen](readme-images/wireframe-win-screen.webp)  
+
+![Image of wireframe mobile screen](readme-images/wireframe-mobile.webp)  
 
 ## Testing
 
