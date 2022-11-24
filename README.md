@@ -155,6 +155,14 @@ The page opens up on the rules modal which clearly states the rules for the play
 ### Wireframe
 
 ## Testing
+
+Console Test
+
+No errors occurred in the console while game is played.
+All buttons used and working as intended.
+
+![Gif of console testing](readme-images/console-testing.gif)  
+
 ### Validator Testing
 
 HTML Validator Result  
