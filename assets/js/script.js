@@ -18,6 +18,10 @@ let closeModal = document.getElementById("close-modal-btn");
 let resultModal = document.getElementById("result-modal-content");
 let modalResults = document.getElementById("modal-results");
 
+/* Loads the rules modal when window is loaded */
+
+window.onload = rulesModal.style.display = "block";
+
 /** 
  * Function to open modal when rules button is clicked
  */
