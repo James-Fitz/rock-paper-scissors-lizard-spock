@@ -15,13 +15,15 @@ The scores are displayed above the corresponding screen for player and computer.
 
 The score is incremented after each win/loss.
 
-The game will end when either the player or the computer reaches a score of 5.
-
-![Am I responsive image](assets/images/readme-images/responsive.webp)
-
-Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-lizard-spock/)
+The game will end when either the player or the computer reaches a score of 5.  
 
 <br>
+
+<img src="assets/images/readme-images/responsive.webp" alt="Am i responsive image" width="700">
+
+<br>
+
+Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-lizard-spock/)  
 
 ## Table of Contents
 - [Rock Paper Scissors Lizard Spock](#rock-paper-scissors-lizard-spock)
@@ -108,6 +110,17 @@ There are two buttons underneath the gameplay area.
 
 <img src="assets/images/readme-images/buttons.webp" alt="Image of buttons at the bottom of screen" width="500">
 
+</details>
+
+<details><summary>Results Modals</summary>
+
+- This modal pop up is displayed when the user reaches 5 round wins and wins the game.  
+<img src="assets/images/readme-images/win-modal.webp" alt="Image of win results modal" width="500">  
+
+<br>
+
+- This modal pop up is displayed when the computer reaches 5 round wins and wins the game.  
+<img src="assets/images/readme-images/lose-modal.webp" alt="Image of lose results modal" width="500">  
 
 </details>
 
