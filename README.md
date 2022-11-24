@@ -13,6 +13,18 @@ The game will end when either the player or the computer reaches a score of 5.
 
 ## Features
 
+### Rules modal
+
+### Header
+
+### Gameplay screen
+
+### Round results area
+
+### Player choice icons
+
+### Extra buttons
+
 ## UX
 ### Introduction
 I wanted to utilize a very simple, clear UX for this project. 
