@@ -237,8 +237,13 @@ Javascript Validator Results
 Lighthouse Result  
 ![Image of lighthouse test results](readme-images/lighthouse-results.webp)  
 
-</details>
+</details>  
 
+<details><summary>Known Bugs and Errors</summary>  
+
+No known bugs or errors in this project  
+
+</details>  
 
 ## **Technology Used**   
 <details><summary>Programs Used</summary>  
