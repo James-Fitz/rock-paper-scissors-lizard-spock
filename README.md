@@ -89,7 +89,24 @@ There are four different options that can be displayed in the round results area
 - "You win the round!" is displayed when the player wins a round.
 - "Draw!" is displayed when the computer and player make the same choice.
 
-<img src="assets/images/readme-images/round-results.webp" alt="Image of round results area" width="500">
+<img src="assets/images/readme-images/round-results.webp" alt="Image of round results area" width="500">  
+
+<br>
+
+When the playeer wins, the win round message is displayed and the players score is increased by one.  
+<img src="assets/images/readme-images/round-win.webp" alt="Image of round results area when player wins" width="500">   
+
+<br>
+
+When the computer wins, the computer wins message is displayed and the computers score is increased by one.  
+<img src="assets/images/readme-images/round-loss.webp" alt="Image of round results area when player losses" width="500">  
+
+<br>
+
+When there is a draw result, the draw message is displayed and neither scores are increased.  
+<img src="assets/images/readme-images/round-draw.webp" alt="Image of round results area when there is a draw" width="500">  
+
+<br>
 
 </details>
 
