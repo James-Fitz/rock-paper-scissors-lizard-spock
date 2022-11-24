@@ -31,9 +31,6 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [UX](#ux)
-    - [UX Introduction](#ux-introduction)
-    - [Color Palette](#color-palette)
-    - [Font](#font)
     - [Wireframe](#wireframe)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
@@ -146,83 +143,98 @@ There are two buttons underneath the gameplay area.
 
 - Implementation of a landing page in a future version, which contains the rules and a start game button which navigates the user to the gameplay page.
 - Implementation of a scored tracking system that will keep track of the overall ammount of games that the player and computer have won.
+- 
 </details>
 
 ## UX
-### UX Introduction
+<details><summary>UX Introduction</summary>  
 
 I wanted to utilize a very simple, clear UX for this project. 
 The page opens up on the rules modal which clearly states the rules for the player.
-### Color Palette  
+
+</details>
+
+<details><summary>Color Palette</summary>  
 
 I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between player/computer, and win/loss.  
-![Image of color palette used](readme-images/color-palette.webp)  
+![Image of color palette used](readme-images/color-palette.webp)
 
-### Font
+</details>  
+
+<details><summary>Font</summary>  
 
 I chose a clean, simple font to maximise readability and ensure a positive user experience.
 ![Image of font used](readme-images/font.webp)  
 
+</details>  
+
 ### Wireframe
 
+I kept the wireframe design simple as I wanted this project to be clear, to the point and simple to understand/read.  
+The wireframe design is very similar to the finished project.  
+
+- Opening home page  
 ![Image of wireframe homepage](readme-images/wireframe-homepage.webp)  
 
+- Game Screen  
 ![Image of wireframe game screen](readme-images/wireframe-game-screen.webp)  
 
+- Win screen  
 ![Image of wireframe win screen](readme-images/wireframe-win-screen.webp)  
 
+- Mobile view  
 ![Image of wireframe mobile screen](readme-images/wireframe-mobile.webp)  
 
 ## Testing
 
 Console Test
 
-No errors occur in the console while the game is being played.
-All buttons used and working as intended.
+No errors occur in the console while the game is being played.  
+All buttons were tested and all are working as intended.  
 
 ![Gif of console testing](readme-images/console-testing.gif)  
 
-### Validator Testing
+### Validator Testing  
 
-HTML Validator Result  
+HTML Validator Result    
 ![Image of html validator results](readme-images/html-validator.webp)  
 
 <br> 
 
 CSS Validator Result  
-![Image of css validator results](readme-images/css-validator.webp)  
+![Image of css validator results](readme-images/css-validator.webp)    
 
 <br>
 
-Javascript Validator Results
-![Image of javascript validator results](readme/../readme-images/js-validator.webp)
+Javascript Validator Results  
+![Image of javascript validator results](readme/../readme-images/js-validator.webp)  
 
-### Lighthouse Result
+### Lighthouse Result  
 
 Lighthouse Result  
 ![Image of lighthouse test results](readme-images/lighthouse-results.webp)  
-## Technology Used
-### Programs Used
-### Languages Used
+## Technology Used  
+### Programs Used  
+### Languages Used  
 
-## Deployment
-### Github Pages
-### How to Clone
-### How to Fork
-### How to Make Local Clone
+## Deployment  
+### Github Pages  
+### How to Clone  
+### How to Fork  
+### How to Make Local Clone  
 
-## Credits
+## Credits  
 
-### Media
+### Media  
 
-Favicon image from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)
+Favicon image from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)  
 
-Rules image taken from [Big Bang Theory Wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+Rules image taken from [Big Bang Theory Wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
 
-Icons taken from [FontAwesome](https://fontawesome.com/)
+Icons taken from [FontAwesome](https://fontawesome.com/)  
 
-### Code
+### Code  
 
-[W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions.
+[W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions.  
 
-Help with code from Slack, tutor support and mentor Chris Quinn.
+Help with code from Slack, tutor support and mentor Chris Quinn.  
