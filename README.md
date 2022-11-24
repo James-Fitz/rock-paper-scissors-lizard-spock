@@ -1,20 +1,23 @@
-# Rock Paper Scissors Lizard Spock
+# Rock Paper Scissors Lizard Spock<br>
+
 
 ## Introduction
 
 Rock paper scissors lizard spock was first introduced to the world in The Big Bang Theory. 
 It is a game of chance, just like to original rock paper scissors game, with some added variables.
 The rules are very straight forward, as stated by Sheldon in the Big Bang Theory:
-> "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
+> "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors > decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
 >
 The game I have created takes the users input, determines a random selection for the computer and displays the selection of both player and computer and outputs the result of each round to the user.
 The scores are displayed above the corresponding screen for player and computer.
 The score is incremented after each win/loss.
-The game will end when either the player or the computer reaches a score of 5.
+The game will end when either the player or the computer reaches a score of 5.<br>
 
 ![Am I responsive?](assets/images/readme-images/responsive.webp)
 
 Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-lizard-spock/)
+<br>
+
 ## Features
 
 ### Rules modal
@@ -29,7 +32,9 @@ The rules modal is displayed as soon as the page is loaded. This ensures that th
 
 ### Player choice icons
 
-### Extra buttons
+### Extra buttons  
+
+
 
 ## UX
 ### Introduction
@@ -57,10 +62,10 @@ The page opens up on the rules modal which clearly states the rules for the play
 
 ### Media
 
-Favicon image from freepik - https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag
+Favicon image from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)
 
-Rules image taken from Big Bang Theory Wiki page - https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
+Rules image taken from [Big Bang Theory Wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
 
 ### Code
-https://www.w3schools.com/ - Used to learn about modals and extra features for JS functions.
+[W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions.
 Help with code from Slack, tutor support and Mentor Chris Quinn.
