@@ -77,7 +77,9 @@ The players choice icon is displayed in the blue box.
 The computers choice icon is displayed in the red box.  
 The scores are displayed above the colored boxes. 
 
-![Image of gameplay screen](readme-images/gameplay-screen.webp)  
+![Image of gameplay screen](readme-images/gameplay-screen.webp) 
+
+</details>
 
 <details><summary>Round Results Area</summary>
 
@@ -158,7 +160,7 @@ The page opens up on the rules modal which clearly states the rules for the play
 
 Console Test
 
-No errors occurred in the console while game is played.
+No errors occur in the console while the game is being played.
 All buttons used and working as intended.
 
 ![Gif of console testing](readme-images/console-testing.gif)  
@@ -173,6 +175,10 @@ HTML Validator Result
 CSS Validator Result  
 ![Image of css validator results](readme-images/css-validator.webp)  
 
+<br>
+
+Javascript Validator Results
+![Image of javascript validator results](readme/../readme-images/js-validator.webp)
 
 ### Lighthouse Result
 
