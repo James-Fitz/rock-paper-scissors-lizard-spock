@@ -33,8 +33,6 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
   - [UX](#ux)
     - [Wireframe](#wireframe)
   - [Testing](#testing)
-    - [Validator Testing](#validator-testing)
-    - [Lighthouse Result](#lighthouse-result)
   - [Technology Used](#technology-used)
     - [Programs Used](#programs-used)
     - [Languages Used](#languages-used)
@@ -187,14 +185,20 @@ The wireframe design is very similar to the finished project.
 
 ## Testing
 
-Console Test
+<details><summary>Responsiveness</summary>  
+
+</details>  
+
+<details><summary>Console Testing</summary>  
 
 No errors occur in the console while the game is being played.  
 All buttons were tested and all are working as intended.  
 
 ![Gif of console testing](readme-images/console-testing.gif)  
 
-### Validator Testing  
+</details>
+
+<details><summary>Validator Testing</summary>   
 
 HTML Validator Result    
 ![Image of html validator results](readme-images/html-validator.webp)  
@@ -209,10 +213,16 @@ CSS Validator Result
 Javascript Validator Results  
 ![Image of javascript validator results](readme/../readme-images/js-validator.webp)  
 
-### Lighthouse Result  
+</details>  
+
+<details><summary>Lighthouse Testing</summary>  
 
 Lighthouse Result  
 ![Image of lighthouse test results](readme-images/lighthouse-results.webp)  
+
+</details>
+
+
 ## Technology Used  
 ### Programs Used  
 ### Languages Used  
