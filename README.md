@@ -1,6 +1,6 @@
-# Rock Paper Scissors Lizard Spock
+# **Rock Paper Scissors Lizard Spock**
 
-## Introduction
+## **Introduction**
 
 Rock paper scissors lizard spock was first introduced to the world in The Big Bang Theory. 
 
@@ -25,27 +25,21 @@ The game will end when either the player or the computer reaches a score of 5.
 
 Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-lizard-spock/)  
 
-## Table of Contents
-- [Rock Paper Scissors Lizard Spock](#rock-paper-scissors-lizard-spock)
-  - [Introduction](#introduction)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [UX](#ux)
-    - [Wireframe](#wireframe)
-  - [Testing](#testing)
-  - [Technology Used](#technology-used)
-    - [Programs Used](#programs-used)
-    - [Languages Used](#languages-used)
-  - [Deployment](#deployment)
-    - [Github Pages](#github-pages)
-    - [How to Clone](#how-to-clone)
-    - [How to Fork](#how-to-fork)
-    - [How to Make Local Clone](#how-to-make-local-clone)
-  - [Credits](#credits)
-    - [Media](#media)
-    - [Code](#code)
+## **Table of Contents**
+- [**Rock Paper Scissors Lizard Spock**](#rock-paper-scissors-lizard-spock)
+  - [**Introduction**](#introduction)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Features**](#features)
+  - [**UX**](#ux)
+    - [**Wireframe**](#wireframe)
+  - [**Testing**](#testing)
+  - [**Technology Used**](#technology-used)
+  - [**Deployment**](#deployment)
+  - [**Credits**](#credits)
 
-## Features
+## **Features**    
+
+I kept the features simple and straight forward for this project. 
 
 <details><summary>Rules Modal</summary>
 
@@ -127,24 +121,24 @@ There are two buttons underneath the gameplay area.
 
 <details><summary>Results Modals</summary>
 
-- This modal pop up is displayed when the user reaches 5 round wins and wins the game.  
+- This modal pop up is displayed when the user reaches five round wins and wins the game.  
 ![Image of win results modal](readme-images/win-modal.webp)  
 
 <br>
 
-- This modal pop up is displayed when the computer reaches 5 round wins and wins the game.  
+- This modal pop up is displayed when the computer reaches five round wins and wins the game.  
 ![Image of lose results modal](readme-images/lose-modal.webp)  
 
-</details>
+</details>  
 
-<details><summary>Future Features</summary>
+<details><summary>Future Features</summary>  
 
-- Implementation of a landing page in a future version, which contains the rules and a start game button which navigates the user to the gameplay page.
-- Implementation of a scored tracking system that will keep track of the overall ammount of games that the player and computer have won.
-- 
-</details>
+- Implementation of a landing page in a future version, which contains the rules and a start game button which navigates the user to the gameplay page.  
+- Implementation of a scored tracking system that will keep track of the overall ammount of games that the player and computer have won.  
 
-## UX
+</details>  
+
+## **UX**    
 
 I wanted to utilize a very simple, clear UX for this project. 
 The page opens up on the rules modal which clearly states the rules for the player.  
@@ -152,18 +146,18 @@ The page opens up on the rules modal which clearly states the rules for the play
 <details><summary>Color Palette</summary>  
 
 I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between player/computer, and win/loss.  
-![Image of color palette used](readme-images/color-palette.webp)
+![Image of color palette used](readme-images/color-palette.webp)  
 
 </details>  
 
 <details><summary>Font</summary>  
 
-I chose a clean, simple font to maximise readability and ensure a positive user experience.
-![Image of font used](readme-images/font.webp)  
+I chose a clean, simple font to maximise readability and ensure a positive user experience.  
+![Image of font used](readme-images/font.webp)   
 
-</details>  
+</details>   
 
-### Wireframe
+### **Wireframe**    
 
 I kept the wireframe design simple as I wanted this project to be clear, to the point and simple to understand/read.  
 The wireframe design is very similar to the finished project.  
@@ -196,7 +190,7 @@ The wireframe design is very similar to the finished project.
 
 </details>  
 
-## Testing
+## **Testing**  
 
 <details><summary>Responsiveness</summary>  
 
@@ -246,28 +240,49 @@ Lighthouse Result
 </details>
 
 
-## Technology Used  
-### Programs Used  
-### Languages Used  
+## **Technology Used**   
+<details><summary>Programs Used</summary>  
 
-## Deployment  
-### Github Pages  
-### How to Clone  
-### How to Fork  
-### How to Make Local Clone  
 
-## Credits  
+</details>  
+<details><summary>Languages Used</summary>  
 
-### Media  
+- HTML5
+- CSS
+- Javascript
+  
+</details>  
 
-Favicon image from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)  
+## **Deployment**  
+<details><summary>Github Pages</summary>  
 
-Rules image taken from [Big Bang Theory Wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
+</details>  
+<details><summary>How to Clone</summary>  
 
-Icons taken from [FontAwesome](https://fontawesome.com/)  
+</details>  
+<details><summary>How to Fork</summary>  
 
-### Code  
+</details>  
+<details><summary>How to Make Local Clone</summary>  
 
-[W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions.  
+</details>  
 
-Help with code from Slack, tutor support and mentor Chris Quinn.  
+## **Credits**  
+
+<details><summary>Media</summary>  
+
+- Favicon image from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)  
+
+- Rules image taken from [Big Bang Theory Wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
+
+- Icons taken from [FontAwesome](https://fontawesome.com/)  
+
+</details>  
+
+<details><summary>Code</summary>  
+
+- [W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions.  
+
+- Help with code from Slack, tutor support and mentor Chris Quinn.  
+
+</details>  
