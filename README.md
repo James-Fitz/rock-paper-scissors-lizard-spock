@@ -154,10 +154,12 @@ I wanted to utilize a very simple, clear UX for this project.
 The page opens up on the rules modal which clearly states the rules for the player.
 ### Color Palette  
 
+I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between player/computer, and win/loss.  
 ![Image of color palette used](readme-images/color-palette.webp)  
 
 ### Font
 
+I chose a clean, simple font to maximise readability and ensure a positive user experience.
 ![Image of font used](readme-images/font.webp)  
 
 ### Wireframe
