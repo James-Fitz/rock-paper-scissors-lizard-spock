@@ -157,7 +157,20 @@ The page opens up on the rules modal which clearly states the rules for the play
 
 ## Testing
 ### Validator Testing
+
+HTML Validator Result  
+<img src="assets/images/readme-images/html-validator.webp" alt="Image of html validator results" width="500">  
+
+<br> 
+
+CSS Validator Result  
+<img src="assets/images/readme-images/css-validator.webp" alt="Image of css validator results" width="500">  
+
+
 ### Lighthouse Result
+
+Lighthouse Result  
+<img src="assets/images/readme-images/lighthouse-results.webp" alt="Image of lighthouse test results" width="500">  
 
 ## Technology Used
 ### Programs Used
