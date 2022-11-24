@@ -1,6 +1,5 @@
 # Rock Paper Scissors Lizard Spock
 
-
 ## Introduction
 
 Rock paper scissors lizard spock was first introduced to the world in The Big Bang Theory. 
@@ -24,43 +23,77 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
 
 <br>
 
+## Table of Contents
+- [Rock Paper Scissors Lizard Spock](#rock-paper-scissors-lizard-spock)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [Rules Modal](#rules-modal)
+    - [Header](#header)
+    - [Gameplay Screen](#gameplay-screen)
+    - [Round Results Area](#round-results-area)
+    - [Player Choice Icons](#player-choice-icons)
+    - [Extra Buttons](#extra-buttons)
+    - [Future Features](#future-features)
+  - [UX](#ux)
+    - [UX Introduction](#ux-introduction)
+    - [Color Palette](#color-palette)
+    - [Font](#font)
+    - [Wireframe](#wireframe)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Lighthouse Result](#lighthouse-result)
+  - [Technology Used](#technology-used)
+    - [Programs Used](#programs-used)
+    - [Languages Used](#languages-used)
+  - [Deployment](#deployment)
+    - [Github Pages](#github-pages)
+    - [How to Clone](#how-to-clone)
+    - [How to Fork](#how-to-fork)
+    - [How to Make Local Clone](#how-to-make-local-clone)
+  - [Credits](#credits)
+    - [Media](#media)
+    - [Code](#code)
+
 ## Features
 
-### Rules modal
+### Rules Modal
 
 The rules modal is displayed as soon as the page is loaded. This ensures that the user will be presented with the rules immediately and will understand how the game works.
 
 ### Header
 
-### Gameplay screen
+### Gameplay Screen
 
-### Round results area
+### Round Results Area
 
-### Player choice icons
+### Player Choice Icons
 
-### Extra buttons  
+### Extra Buttons
+
+### Future Features
 
 ## UX
-### Introduction
+### UX Introduction
 I wanted to utilize a very simple, clear UX for this project. 
 The page opens up on the rules modal which clearly states the rules for the player.
-### Color palette 
+### Color Palette 
 ### Font
 ### Wireframe
 
 ## Testing
-### Validator testing
-### Lighthouse result
+### Validator Testing
+### Lighthouse Result
 
 ## Technology Used
-### Programs used
-### Languages used
+### Programs Used
+### Languages Used
 
 ## Deployment
-### Github pages
-### How to clone
-### How to fork
-### How to make local clone
+### Github Pages
+### How to Clone
+### How to Fork
+### How to Make Local Clone
 
 ## Credits
 
