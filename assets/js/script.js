@@ -57,6 +57,7 @@ function displayComputerChoice() {
     let computerIcon = document.getElementById("display-computer-choice");
     computerIcon.className = `far fa-hand-${computerChoice}`;
     computerIcon.style.display = "block";
+    computerIcon.innerHTML = "";
 }
 
 /** 
@@ -75,6 +76,7 @@ function displayPlayerChoice() {
     let playerIcon = document.getElementById("display-player-choice");
     playerIcon.className = `far fa-hand-${playerChoice}`;
     playerIcon.style.display = "block";
+    playerIcon.innerHTML = "";
 }
 
 /**
@@ -182,8 +184,10 @@ function reset() {
     resultText.innerHTML = `<h2>Waiting for input...</h2>`;
     resultText.style.color = "rgb(0, 0, 0)";
     resultModal.style.display = "none";
-    document.getElementById("display-player-choice").style.display = "none";
-    document.getElementById("display-computer-choice").style.display = "none";
+    document.getElementById("display-player-choice").className = "none";
+    document.getElementById("display-computer-choice").className = "none";
+    document.getElementById("display-player-choice").innerHTML = "?";
+    document.getElementById("display-computer-choice").innerHTML = "?";
     resetClick();
 }
 
