@@ -89,11 +89,22 @@ There are four different options that can be displayed in the round results area
 
 <details><summary>Player Choice Icons</summary>
 
-<img src="assets/images/readme-images/icon-choice-area" alt="Image of icons for player to choose from" width="500">
+There are five choices that the player can make. Each icon will increase in size and change to blue when the player hovers over it.
+
+<img src="assets/images/readme-images/icon-choice-area.webp" alt="Image of icons for player to choose from" width="500">
 
 </details>
 
 <details><summary>Extra Buttons</summary>
+
+There are two buttons underneath the gameplay area.
+
+The rules button will display a modal pop up with the rules for the game.
+
+The reset button will reset all of the gameplay area to it's default values.
+
+<img src="assets/images/readme-images/buttons.webp" alt="Image of buttons at the bottom of screen" width="500">
+
 
 </details>
 
