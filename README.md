@@ -61,11 +61,18 @@ This ensures that the user will be presented with the rules immediately and will
 
 <details><summary>Header</summary>
 
+A simple header with icons corresponding to the relevent choices available in the game.
+
 <img src="assets/images/readme-images/header.webp" alt="Image of header" width="500">
 
 </details>
 
 <details><summary>Gameplay Screen</summary>
+
+This is the main gameplay area.  
+The players choice icon is displayed in the blue box.  
+The computers choice icon is displayed in the red box.  
+The scores are displayed above the colored boxes. 
 
 <img src="assets/images/readme-images/gameplay-screen.webp" alt="Image of gameplay screen" width="500">
 
@@ -76,11 +83,8 @@ This ensures that the user will be presented with the rules immediately and will
 There are four different options that can be displayed in the round results area.
 
 - "Waiting for input" is the default string that is displayed.
-
 - "Computer wins the round!" is displayed when the computer wins a round.
-
 - "You win the round!" is displayed when the player wins a round.
-
 - "Draw!" is displayed when the computer and player make the same choice.
 
 <img src="assets/images/readme-images/round-results.webp" alt="Image of round results area" width="500">
@@ -99,9 +103,8 @@ There are five choices that the player can make. Each icon will increase in size
 
 There are two buttons underneath the gameplay area.
 
-The rules button will display a modal pop up with the rules for the game.
-
-The reset button will reset all of the gameplay area to it's default values.
+- The rules button will display a modal pop up with the rules for the game.
+- The reset button will reset all of the gameplay area to it's default values.
 
 <img src="assets/images/readme-images/buttons.webp" alt="Image of buttons at the bottom of screen" width="500">
 
@@ -110,6 +113,8 @@ The reset button will reset all of the gameplay area to it's default values.
 
 <details><summary>Future Features</summary>
 
+- Implementation of a landing page in a future version, which contains the rules and a start game button which navigates the user to the gameplay page.
+- Implementation of a scored tracking system that will keep track of the overall ammount of games that the player and computer have won.
 </details>
 
 ## UX
