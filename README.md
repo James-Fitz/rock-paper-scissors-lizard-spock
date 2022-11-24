@@ -152,7 +152,10 @@ There are two buttons underneath the gameplay area.
 ### UX Introduction
 I wanted to utilize a very simple, clear UX for this project. 
 The page opens up on the rules modal which clearly states the rules for the player.
-### Color Palette 
+### Color Palette  
+
+![Image of color palette used](readme-images/color-palette.webp)  
+
 ### Font
 ### Wireframe
 
