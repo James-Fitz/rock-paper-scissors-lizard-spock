@@ -184,10 +184,8 @@ function reset() {
     resultText.innerHTML = `<h2>Waiting for input...</h2>`;
     resultText.style.color = "rgb(0, 0, 0)";
     resultModal.style.display = "none";
-    document.getElementById("display-player-choice").className = "none";
-    document.getElementById("display-computer-choice").className = "none";
-    document.getElementById("display-player-choice").innerHTML = "?";
-    document.getElementById("display-computer-choice").innerHTML = "?";
+    document.getElementById("display-player-choice").className = "fa-solid fa-question";
+    document.getElementById("display-computer-choice").className = "fa-solid fa-question";
     resetClick();
 }
 
