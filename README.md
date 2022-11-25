@@ -1,6 +1,14 @@
-# **Rock Paper Scissors Lizard Spock**
+# **Rock Paper Scissors Lizard Spock**  
 
-## **Introduction**
+![Am i responsive image](readme-images/responsive.webp)  
+
+<br>
+
+**Live site can be found** [HERE](https://james-fitz.github.io/rock-paper-scissors-lizard-spock/)  
+
+<br>
+
+## **Introduction**  
 
 Rock paper scissors lizard spock was first introduced to the world in The Big Bang Theory. 
 
@@ -18,12 +26,6 @@ The score is incremented after each win/loss.
 The game will end when either the player or the computer reaches a score of 5.  
 
 <br>
-
-![Am i responsive image](readme-images/responsive.webp)  
-
-<br>
-
-Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-lizard-spock/)  
 
 ## **Table of Contents**
 - [**Rock Paper Scissors Lizard Spock**](#rock-paper-scissors-lizard-spock)
@@ -92,7 +94,7 @@ The red color has been used throught the project to show the computer choices an
 <details><summary>Font</summary>  
 
 I chose a clean, simple font to maximise readability and ensure a positive user experience.  
-![Image of font used](readme-images/font.webp)   
+![Image of font used](readme-images/font.webp)    
 
 </details>   
 
