@@ -274,7 +274,7 @@ The display icon boxes were moved to a vertical stack to ensure they can still b
 - iPhone 8  
 ![iPhone 8 responsiveness](readme-images/iphone-responsiveness.webp)  
 
-- Huawei Mate 20 Pro
+- Huawei Mate 20 Pro  
 ![Huawei Mate 20 Pro Responsoveness](readme-images/huawei-responsiveness.webp)  
 
 <br>
