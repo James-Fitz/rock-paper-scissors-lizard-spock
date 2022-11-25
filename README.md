@@ -304,7 +304,7 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 3. Select either "HTTPS", "SSH" or "Github CLI" and click the copy button.  
 4. Open Git Bash.  
 5. Change the location of your cloned repository.  
-6. Type <code>`git clone`</code> and then paste the URL you copied.  
+6. Type <code>git clone</code> and then paste the URL you copied.  
 7. Press “Enter” to create your clone.  
    
 <br>  
@@ -316,10 +316,6 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 1. Navigate to the required repository on GitHub.
 2. Click "Fork" on the top right hand corner of the page.
 3. Click "Create Fork" at the bottom of the page.
-
-</details>  
-
-<details><summary>How to Make Local Clone</summary>  
 
 </details>  
 
