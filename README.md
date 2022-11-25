@@ -288,6 +288,12 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 ## **Deployment**  
 <details><summary>Github Pages</summary>  
 
+1. Navigate to the required repository on GitHub.
+2. Click settings at the right hand side of the navigation bar.
+3. Click "Pages" located under the "Code and automation" heading on the left hand side of the screen.
+4. Select "Main Branch" as the source and click save.
+5. The live link can take a few minutes to become available, and will be located at the top of the pages page.
+
 </details>  
 <details><summary>How to Clone</summary>  
 
@@ -313,8 +319,8 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 
 <details><summary>Code</summary>  
 
-- [W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions.  
+- [W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions such as arrow functions, pointer events and timeout function delays.  
 
-- Help with code from Slack, tutor support and mentor Chris Quinn.  
+- Help with code from the tutors at Code Institute tutor support and mentor Chris Quinn.  
 
 </details>  
