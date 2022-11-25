@@ -244,23 +244,36 @@ Lighthouse Result
 
 <details><summary>Known Bugs and Errors</summary>  
 
-There is a bug that occurs when the user clicks a selection rapidly at the end of the game. If either the computer or the player reaches a score of 5, the game result modal will pop up to end the game, however, there is a small window between the final result and the endgame function which allows the user to click again and increase their score beyond the 5 maximum limit.
+<br>
+
+There is a bug that occurs when the user clicks a selection rapidly at the end of the game.  
+If either the computer or the player reaches a score of 5, the game result modal will pop up to end the game, however, there is a small window between the final result and the endgame function which allows the user to click again and increase their score beyond the 5 maximum limit.  
 As this doesn't affect normal gameplay and only occurs when the user rapidly spams the icon selection at the end of the game, I have chosed to leave this bug in the game.  
 
-![Gif displaying scoring bug](readme-images/score-bug.gif)
+<br>
+
+![Gif displaying scoring bug](readme-images/score-bug.gif)  
+
+<br>
 
 </details>  
 
 ## **Technology Used**   
 <details><summary>Programs Used</summary>  
-- Gitpod
-- Github
-- Chrome Dev Tools
-- Validators
-  - HTML
-  - CSS
-  - Javascript
-  - 
+
+- [Gitpod](https://www.gitpod.io/)
+- [Github](https://github.com/)  
+- Google Chrome Dev Tools  
+- [Google Fonts](https://fonts.google.com/)
+- [Fontawesome](https://fontawesome.com/)
+- [EZGif](https://ezgif.com/video-to-gif)
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA7IGcBhA8EiwAFfUDsedt1_yntzPRVIkvCMNi08x47L8fqx7EzPM2G05MqCNkcgb9mdIPPBoCQ7EQAvD_BwE)
+- [Image.online-convert](https://image.online-convert.com/convert-to-webp)
+- Validators  
+  - [HTML](https://validator.w3.org/)  
+  - [CSS](https://jigsaw.w3.org/css-validator/)
+  - [Javascript](https://jshint.com/)  
+
   
 
 </details>  
@@ -290,11 +303,11 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 
 <details><summary>Media</summary>  
 
-- Favicon image from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)  
+- Favicon image taken from [Freepik](https://www.flaticon.com/free-icon/rock-paper-scissors_6729743?term=rock%20paper%20scissors&page=1&position=15&page=1&position=15&related_id=6729743&origin=tag)  
 
 - Rules image taken from [Big Bang Theory Wiki page](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
 
-- Icons taken from [FontAwesome](https://fontawesome.com/)  
+- All gameplay icons taken from [FontAwesome](https://fontawesome.com/)  
 
 </details>  
 
