@@ -227,7 +227,7 @@ The page was tested using the following browers:
 - Google Chrome  
 - Mozilla Firefox  
   
-No issues with responsiveness, appearance or functionality were noted while using any of theese browsers. 
+No issues with responsiveness, appearance or functionality were noted while using any of the browsers above. 
 
 </details>  
 
@@ -242,6 +242,14 @@ The display icon boxes were moved to a vertical stack to ensure they can still b
 
 - Responsiveness of 320px screen width  
 ![Image of 320px screen width responsiveness](readme-images/320-responsive.webp)  
+
+- iPhone 8  
+![iPhone 8 responsiveness](readme-images/iphone-responsiveness.webp)  
+
+- Huawei Mate 20 Pro
+![Huawei Mate 20 Pro Responsoveness](readme-images/huawei-responsiveness.webp)  
+
+<br>
 
 </details>  
 
