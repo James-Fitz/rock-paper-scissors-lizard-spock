@@ -29,13 +29,80 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
 - [**Rock Paper Scissors Lizard Spock**](#rock-paper-scissors-lizard-spock)
   - [**Introduction**](#introduction)
   - [**Table of Contents**](#table-of-contents)
-  - [**Features**](#features)
   - [**UX**](#ux)
   - [**Wireframe**](#wireframe)
+  - [**Features**](#features)
   - [**Testing**](#testing)
   - [**Technology Used**](#technology-used)
   - [**Deployment**](#deployment)
   - [**Credits**](#credits)
+
+## **UX**    
+
+I wanted to utilize a very simple, clear UX for this project.  
+There are no overpowering graphics or colors in this project. 
+The blue color has been used throughout the project to show the user choices and victory for the user.
+The red color has been used throught the project to show the computer choices and the computer victory.
+The page opens up on the rules modal which clearly states the rules for the player.  
+The icons are clear and easily distinguished by the user.  
+When the player hovers over an icon, it will increase slightly in scale and change to a blue color. This feature makes it clear which icon the user is choosing.  
+When the player wins a round it is clearly stated in blue that the player has won.
+When the computer wins a round, it is clearly stated in red that the computer has won the round.
+If there is a draw, the draw text will be displayed in yellow.
+The three different colors for the three different outcomes make it very easy for the user to realise the results of each round.
+
+If the player wins the game, a blue modal pop up will inform the user of their victory.
+If the player loses the round, a red modal pop up will display the losing message.
+
+<details><summary>Color Palette</summary>  
+
+I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between 
+player/computer, and win/loss.  
+
+![Image of color palette used](readme-images/color-palette.webp)  
+
+</details>  
+
+<details><summary>Font</summary>  
+
+I chose a clean, simple font to maximise readability and ensure a positive user experience.  
+![Image of font used](readme-images/font.webp)   
+
+</details>   
+
+## **Wireframe**    
+
+I kept the wireframe design simple as I wanted this project to be clear, to the point and simple to understand/read.  
+The wireframe design is very similar to the finished project.  
+
+<details><summary>Opening Home Page</summary>  
+
+- Opening home page  
+![Image of wireframe homepage](readme-images/wireframe-homepage.webp)  
+
+</details>  
+
+<details><summary>Game Screen</summary>  
+
+- Game Screen  
+![Image of wireframe game screen](readme-images/wireframe-game-screen.webp)  
+
+</details>  
+
+<details><summary>Win Screen</summary>  
+
+- Win screen  
+![Image of wireframe win screen](readme-images/wireframe-win-screen.webp)  
+
+</details>  
+
+<details><summary>Mobile View</summary>  
+
+- Mobile view  
+![Image of wireframe mobile screen](readme-images/wireframe-mobile.webp)  
+
+</details>  
+
 
 ## **Features**    
 
@@ -138,75 +205,6 @@ There are two buttons underneath the gameplay area.
 
 - Implementation of a landing page in a future version, which contains the rules and a start game button which navigates the user to the gameplay page.  
 - Implementation of a scored tracking system that will keep track of the overall ammount of games that the player and computer have won.  
-
-</details>  
-
-## **UX**    
-
-I wanted to utilize a very simple, clear UX for this project.  
-There are no overpowering graphics or colors in this project. 
-The blue color has been used throughout the project to show the user choices and victory for the user.
-The red color has been used throught the project to show the computer choices and the computer victory.
-The page opens up on the rules modal which clearly states the rules for the player.  
-The icons are clear and easily distinguished by the user.  
-When the player hovers over an icon, it will increase slightly in scale and change to a blue color. This feature makes it clear which icon the user is choosing.  
-When the player wins a round it is clearly stated in blue that the player has won.
-When the computer wins a round, it is clearly stated in red that the computer has won the round.
-If there is a draw, the draw text will be displayed in yellow.
-The three different colors for the three different outcomes make it very easy for the user to realise the results of each round.
-
-If the player wins the game, a blue modal pop up will inform the user of their victory.
-If the player loses the round, a red modal pop up will display the losing message.
-
-
-
-
-<details><summary>Color Palette</summary>  
-
-I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between 
-player/computer, and win/loss.  
-
-![Image of color palette used](readme-images/color-palette.webp)  
-
-</details>  
-
-<details><summary>Font</summary>  
-
-I chose a clean, simple font to maximise readability and ensure a positive user experience.  
-![Image of font used](readme-images/font.webp)   
-
-</details>   
-
-## **Wireframe**    
-
-I kept the wireframe design simple as I wanted this project to be clear, to the point and simple to understand/read.  
-The wireframe design is very similar to the finished project.  
-
-<details><summary>Opening Home Page</summary>  
-
-- Opening home page  
-![Image of wireframe homepage](readme-images/wireframe-homepage.webp)  
-
-</details>  
-
-<details><summary>Game Screen</summary>  
-
-- Game Screen  
-![Image of wireframe game screen](readme-images/wireframe-game-screen.webp)  
-
-</details>  
-
-<details><summary>Win Screen</summary>  
-
-- Win screen  
-![Image of wireframe win screen](readme-images/wireframe-win-screen.webp)  
-
-</details>  
-
-<details><summary>Mobile View</summary>  
-
-- Mobile view  
-![Image of wireframe mobile screen](readme-images/wireframe-mobile.webp)  
 
 </details>  
 
