@@ -286,6 +286,7 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 </details>  
 
 ## **Deployment**  
+
 <details><summary>Github Pages</summary>  
 
 1. Navigate to the required repository on GitHub.
@@ -295,12 +296,29 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 5. The live link can take a few minutes to become available, and will be located at the top of the pages page.
 
 </details>  
+
 <details><summary>How to Clone</summary>  
 
-</details>  
-<details><summary>How to Fork</summary>  
+1. Navigate to the required repository on GitHub.  
+2. Click the "Code" button, located below the nav bar and above the file list.  
+3. Select either "HTTPS", "SSH" or "Github CLI" and click the copy button.  
+4. Open Git Bash.  
+5. Change the location of your cloned repository.  
+6. Type <code>`git clone`</code> and then paste the URL you copied.  
+7. Press “Enter” to create your clone.  
+   
+<br>  
 
 </details>  
+
+<details><summary>How to Fork</summary>  
+
+1. Navigate to the required repository on GitHub.
+2. Click "Fork" on the top right hand corner of the page.
+3. Click "Create Fork" at the bottom of the page.
+
+</details>  
+
 <details><summary>How to Make Local Clone</summary>  
 
 </details>  
