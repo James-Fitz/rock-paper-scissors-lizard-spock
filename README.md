@@ -37,27 +37,53 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
   - [**Deployment**](#deployment)
   - [**Credits**](#credits)
 
-## **UX**    
+## **UX**  
 
 I wanted to utilize a very simple, clear UX for this project.  
-There are no overpowering graphics or colors in this project. 
-The blue color has been used throughout the project to show the user choices and victory for the user.
-The red color has been used throught the project to show the computer choices and the computer victory.
-The page opens up on the rules modal which clearly states the rules for the player.  
-The icons are clear and easily distinguished by the user.  
-When the player hovers over an icon, it will increase slightly in scale and change to a blue color. This feature makes it clear which icon the user is choosing.  
-When the player wins a round it is clearly stated in blue that the player has won.
-When the computer wins a round, it is clearly stated in red that the computer has won the round.
-If there is a draw, the draw text will be displayed in yellow.
-The three different colors for the three different outcomes make it very easy for the user to realise the results of each round.
 
-If the player wins the game, a blue modal pop up will inform the user of their victory.
-If the player loses the round, a red modal pop up will display the losing message.
+There are no overpowering graphics or colors in this project.  
+
+The page opens up on the rules modal which clearly states the rules for the player.  
+
+The icons are clear and easily distinguished by the user.  
+
+When the player hovers over an icon, it will increase slightly in scale and change to a blue color. This feature makes it clear which icon the user is choosing.  
+
+When the player wins a round it is clearly stated in blue that the player has won.  
+When the computer wins a round, it is clearly stated in red that the computer has won the round.  
+If there is a draw, the draw text will be displayed in yellow.  
+The three different colors for the three different outcomes make it very easy for the user to identify the results of each round.  
+
+If the player wins the game, a blue modal pop up will inform the user of their victory.  
+If the player loses the game, a red modal pop up will display the losing message.  
+
+<details><summary>Target Audience</summary>  
+
+- Fans of the Big Bang Theory.
+- Anyone that enjoys a simple game of chance.
+
+</details>
+
+<details><summary>User Experience and Expectations</summary>  
+
+- Simple game to play.
+- Clear instructions and rules.
+- Simple design and easy navigation.
+- intuative design where results and outcomes are easily identified.
+- Interactive controls.
+- Responsive site that adjusts depending on the users device.
+
+</details>
 
 <details><summary>Color Palette</summary>  
 
 I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between 
 player/computer, and win/loss.  
+
+I chose the classic blue versus red color scheme to denote the player versus computer respectively.
+
+The blue color has been used throughout the project to show the user choices and victory for the user.
+The red color has been used throught the project to show the computer choices and the computer victory.
 
 ![Image of color palette used](readme-images/color-palette.webp)  
 
@@ -378,7 +404,7 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 
 <details><summary>Code</summary>  
 
-- [W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions such as arrow functions, pointer events and timeout function delays.  
+- [W3Schools](https://www.w3schools.com/) - Used to learn about modals and extra features for JS functions such as arrow functions, pointer events, switch cases and timeout function delays.  
 
 - Help with code from the tutors at Code Institute tutor support and mentor Chris Quinn.  
 
