@@ -72,7 +72,8 @@ The scores are displayed above the colored boxes.
 
 <details><summary>Round Results Area</summary>
 
-There are four different options that can be displayed in the round results area.
+The function to display the result is on a 200ms delay to simulate a more realistic rock paper scissors game.  
+There are four different options that can be displayed in the round results area.  
 
 - "Waiting for input" is the default string that is displayed.
 - "Computer wins the round!" is displayed when the computer wins a round.
