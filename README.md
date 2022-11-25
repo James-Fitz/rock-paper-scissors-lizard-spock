@@ -195,6 +195,25 @@ The wireframe design is very similar to the finished project.
 
 ## **Testing**  
 
+<details><summary>Devices used</summary>  
+
+The page was tested using the following devices:  
+
+- Huawei Matebook Pro  
+- Apple iPhone 8 plus  
+- Huawei Mate 20 Pro  
+
+No issues with responsiveness, appearance or functionality were noted on any of the devices.  
+
+The page was tested using the following browers:  
+
+- IOS Safari Mobile Browser  
+- Android 12.0 Mobile Browser  
+- Google Chrome  
+- Mozilla Firefox  
+  
+No issues with responsiveness, appearance or functionality were noted while using any of theese browsers. 
+
 <details><summary>Responsiveness</summary>  
 
 The application has been tested on multiple devices and at multiple screen width to ensure responsive design at all levels.
