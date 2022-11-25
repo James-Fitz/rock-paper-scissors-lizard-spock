@@ -41,11 +41,11 @@ Live site can be found [HERE](https://james-fitz.github.io/rock-paper-scissors-l
 
 I kept the features simple and straight forward for this project. 
 
-<details><summary>Rules Modal</summary>
+<details><summary>Rules Modal</summary>  
 
-The rules modal is displayed as soon as the page is loaded. 
-
-This ensures that the user will be presented with the rules immediately and will understand how the game works.
+The rules modal is displayed as soon as the page is loaded.  
+This ensures that the user will be presented with the rules immediately and will understand how the game works.  
+The modal contains a small description of the game, the parameters for winning, and an image containing all the outcomes for each selection made.
 
 ![Rules image modal popup](readme-images/rules-modal.webp)  
 
