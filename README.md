@@ -143,12 +143,29 @@ There are two buttons underneath the gameplay area.
 
 ## **UX**    
 
-I wanted to utilize a very simple, clear UX for this project. 
+I wanted to utilize a very simple, clear UX for this project.  
+There are no overpowering graphics or colors in this project. 
+The blue color has been used throughout the project to show the user choices and victory for the user.
+The red color has been used throught the project to show the computer choices and the computer victory.
 The page opens up on the rules modal which clearly states the rules for the player.  
+The icons are clear and easily distinguished by the user.  
+When the player hovers over an icon, it will increase slightly in scale and change to a blue color. This feature makes it clear which icon the user is choosing.  
+When the player wins a round it is clearly stated in blue that the player has won.
+When the computer wins a round, it is clearly stated in red that the computer has won the round.
+If there is a draw, the draw text will be displayed in yellow.
+The three different colors for the three different outcomes make it very easy for the user to realise the results of each round.
+
+If the player wins the game, a blue modal pop up will inform the user of their victory.
+If the player loses the round, a red modal pop up will display the losing message.
+
+
+
 
 <details><summary>Color Palette</summary>  
 
-I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between player/computer, and win/loss.  
+I chose very simple colors for this project to ensure the design was simple, clear and easy for the user to differentiate between 
+player/computer, and win/loss.  
+
 ![Image of color palette used](readme-images/color-palette.webp)  
 
 </details>  
@@ -213,6 +230,8 @@ The page was tested using the following browers:
 - Mozilla Firefox  
   
 No issues with responsiveness, appearance or functionality were noted while using any of theese browsers. 
+
+</details>  
 
 <details><summary>Responsiveness</summary>  
 
@@ -288,6 +307,7 @@ As this doesn't affect normal gameplay and only occurs when the user rapidly spa
 - [EZGif](https://ezgif.com/video-to-gif)
 - [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA7IGcBhA8EiwAFfUDsedt1_yntzPRVIkvCMNi08x47L8fqx7EzPM2G05MqCNkcgb9mdIPPBoCQ7EQAvD_BwE)
 - [Image.online-convert](https://image.online-convert.com/convert-to-webp)
+- [Am I Responsive?](https://ui.dev/amiresponsive)
 - Validators  
   - [HTML](https://validator.w3.org/)  
   - [CSS](https://jigsaw.w3.org/css-validator/)
