@@ -29,6 +29,7 @@ window.onload = rulesModal.style.display = "block";
 
 rulesButton.onclick = () => {
     rulesModal.style.display = "block";
+    resultModal.style.display = "none";
 };
 
 /** 
