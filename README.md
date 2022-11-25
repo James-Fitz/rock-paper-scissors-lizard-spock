@@ -84,6 +84,8 @@ There are four different options that can be displayed in the round results area
 
 <br>
 
+There is also a 150ms delay on the functions to display the icons that were chosen by the user and computer. This was done to simulate a more realistic game, rather than instantaneous choices being made and displayed.  
+
 When the player wins, the win round message is displayed and the players score is increased by one.  
 ![Image of round results area when player wins](readme-images/round-win.webp)  
 
