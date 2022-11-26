@@ -108,30 +108,30 @@ function increaseComputerScore() {
 
 function getResult() {
     switch (playerChoice + computerChoice) {
-        case 'rockscissors':
-        case 'rocklizard':
-        case 'paperrock':
-        case 'paperspock':
-        case 'scissorspaper':
-        case 'scissorslizard':
-        case 'lizardpaper':
-        case 'lizardspock':
-        case 'spockscissors':
-        case 'spockrock':
+        case "rockscissors":
+        case "rocklizard":
+        case "paperrock":
+        case "paperspock":
+        case "scissorspaper":
+        case "cissorslizard":
+        case "lizardpaper":
+        case "lizardspock":
+        case "spockscissors":
+        case "spockrock":
             resultText.innerHTML = `<h2>You win the round!</h2>`;
             resultText.style.color = "rgb(0, 102, 255)";
             increasePlayerScore();
             break;
-        case 'scissorsrock':
-        case 'lizardrock':
-        case 'rockpaper':
-        case 'spockpaper':
-        case 'paperscissors':
-        case 'lizardscissors':
-        case 'paperlizard':
-        case 'spocklizard':
-        case 'scissorsspock':
-        case 'rockspock':
+        case "scissorsrock":
+        case "lizardrock":
+        case "rockpaper":
+        case "spockpaper":
+        case "paperscissors":
+        case "lizardscissors":
+        case "paperlizard":
+        case "spocklizard":
+        case "scissorsspock":
+        case "rockspock":
             resultText.innerHTML = `<h2>Computer wins the round!</h2>`;
             resultText.style.color = "rgb(255, 103, 103)";
             increaseComputerScore();
