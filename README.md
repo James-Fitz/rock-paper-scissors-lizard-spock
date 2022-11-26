@@ -85,7 +85,7 @@ player/computer, and win/loss.
 I chose the classic blue versus red color scheme to denote the player versus computer respectively.
 
 The blue color has been used throughout the project to show the user choices and victory for the user.
-The red color has been used throught the project to show the computer choices and the computer victory.
+The red color has been used throughout the project to show the computer choices and the computer victory.
 
 ![Image of color palette used](readme-images/color-palette.webp)  
 
@@ -94,6 +94,7 @@ The red color has been used throught the project to show the computer choices an
 <details><summary>Font</summary>  
 
 I chose a clean, simple font to maximise readability and ensure a positive user experience.  
+
 ![Image of font used](readme-images/font.webp)    
 
 </details>   
@@ -320,7 +321,7 @@ Lighthouse Result
 
 There is a bug that occurs when the user clicks a selection rapidly at the end of the game.  
 If either the computer or the player reaches a score of 5, the game result modal will pop up to end the game, however, there is a small window between the final result and the endgame function which allows the user to click again and increase their score beyond the 5 maximum limit.  
-As this doesn't affect normal gameplay and only occurs when the user rapidly spams the icon selection at the end of the game, I have chosed to leave this bug in the game.  
+As this doesn't affect normal gameplay and only occurs when the user rapidly spams the icon selection at the end of the game, I have chosen to leave this bug in the game.  
 
 <br>
 
